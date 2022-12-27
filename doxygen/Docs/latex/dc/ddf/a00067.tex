@@ -1,0 +1,133 @@
+\hypertarget{a00067}{}\doxysection{DLL.\+File\+Operations Class Reference}
+\label{a00067}\index{DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{a00067_ab1e3815e4ce2d2ad013842f59d3d5dee}{write\+Line}} (String line, String path, int line\+Length)  throws IOException 
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{a00067_a491b8b30c1f526632afe80d5c500f281}{read\+Block}} (int count, int blocksize, String path)  throws IOException   
+\item 
+static boolean \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{append\+Block}} (byte\mbox{[}$\,$\mbox{]} data, String path)  throws IOException   
+\item 
+static boolean \mbox{\hyperlink{a00067_a485adfe91fd2b9cd0d5be72bb4387d73}{update\+Block}} (byte\mbox{[}$\,$\mbox{]} data, int offset, int blocksize, String path)  throws IOException    
+\item 
+static boolean \mbox{\hyperlink{a00067_af941768c7daa65cdaa190592e660b543}{delete\+Block2}} (int block\+Size, int offset, String path)
+\item 
+static boolean \mbox{\hyperlink{a00067_ab8e7602f44a41d78293a90a32e9b2907}{delete\+Block}} (int count, int blocksize, String path)  throws IOException   
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00067_a521ecf364c3f7b8274d4851216d870d2}\label{a00067_a521ecf364c3f7b8274d4851216d870d2}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!appendBlock@{appendBlock}}
+\index{appendBlock@{appendBlock}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{appendBlock()}{appendBlock()}}
+{\footnotesize\ttfamily static boolean DLL.\+File\+Operations.\+append\+Block (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data,  }\item[{String}]{path }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a559a666ba64720d674936170fec822c7}{DLL.\+Main\+Functions.\+Add\+Bill()}}, \mbox{\hyperlink{a00071_a4bdf3a43c416f7823c6c7e6f38e4552a}{DLL.\+Main\+Functions.\+Add\+Customer()}}, \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00071_aa83de5a36707b606a14e745f38445e53}{DLL.\+Main\+Functions.\+Add\+Sale\+Medicine()}}, \mbox{\hyperlink{a00071_a9f9d09bce637576ee40a96b7255b97e6}{DLL.\+Main\+Functions.\+Add\+Supplier()}}, \mbox{\hyperlink{a00091_a4fd41e4ae1a067c666048425de4d388c}{DLL.\+Unit\+Test.\+test\+Supplier\+Creation()}}, and \mbox{\hyperlink{a00091_a4593b481f352744b264ee232c80a6562}{DLL.\+Unit\+Test.\+test\+Supplier\+Creation\+And\+File\+Writing()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_a521ecf364c3f7b8274d4851216d870d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00067_ab8e7602f44a41d78293a90a32e9b2907}\label{a00067_ab8e7602f44a41d78293a90a32e9b2907}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!deleteBlock@{deleteBlock}}
+\index{deleteBlock@{deleteBlock}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{deleteBlock()}{deleteBlock()}}
+{\footnotesize\ttfamily static boolean DLL.\+File\+Operations.\+delete\+Block (\begin{DoxyParamCaption}\item[{int}]{count,  }\item[{int}]{blocksize,  }\item[{String}]{path }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{a00067_af941768c7daa65cdaa190592e660b543}\label{a00067_af941768c7daa65cdaa190592e660b543}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!deleteBlock2@{deleteBlock2}}
+\index{deleteBlock2@{deleteBlock2}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{deleteBlock2()}{deleteBlock2()}}
+{\footnotesize\ttfamily static boolean DLL.\+File\+Operations.\+delete\+Block2 (\begin{DoxyParamCaption}\item[{int}]{block\+Size,  }\item[{int}]{offset,  }\item[{String}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00063_ac5ca1a366782ef99ac92f19e6237caaf}{DLL.\+Data\+Operations.\+String\+To\+Byte\+Array()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a2607a0daa49c505f8d36b0d25a049230}{APP.\+Main\+Menu.\+option1()}}, \mbox{\hyperlink{a00051_a4f485193b26782868400d1781b13d13b}{APP.\+Main\+Menu.\+option2()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_af941768c7daa65cdaa190592e660b543_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_af941768c7daa65cdaa190592e660b543_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00067_a491b8b30c1f526632afe80d5c500f281}\label{a00067_a491b8b30c1f526632afe80d5c500f281}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!readBlock@{readBlock}}
+\index{readBlock@{readBlock}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{readBlock()}{readBlock()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} DLL.\+File\+Operations.\+read\+Block (\begin{DoxyParamCaption}\item[{int}]{count,  }\item[{int}]{blocksize,  }\item[{String}]{path }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a2607a0daa49c505f8d36b0d25a049230}{APP.\+Main\+Menu.\+option1()}}, \mbox{\hyperlink{a00051_a4f485193b26782868400d1781b13d13b}{APP.\+Main\+Menu.\+option2()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}, and \mbox{\hyperlink{a00091_a032af09a9b879f191c54d198720cc770}{DLL.\+Unit\+Test.\+test\+Read\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_a491b8b30c1f526632afe80d5c500f281_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00067_a485adfe91fd2b9cd0d5be72bb4387d73}\label{a00067_a485adfe91fd2b9cd0d5be72bb4387d73}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!updateBlock@{updateBlock}}
+\index{updateBlock@{updateBlock}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{updateBlock()}{updateBlock()}}
+{\footnotesize\ttfamily static boolean DLL.\+File\+Operations.\+update\+Block (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{data,  }\item[{int}]{offset,  }\item[{int}]{blocksize,  }\item[{String}]{path }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a2607a0daa49c505f8d36b0d25a049230}{APP.\+Main\+Menu.\+option1()}}, \mbox{\hyperlink{a00051_a4f485193b26782868400d1781b13d13b}{APP.\+Main\+Menu.\+option2()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, and \mbox{\hyperlink{a00091_aa688ee6a26376ee79457c2fd731f27ad}{DLL.\+Unit\+Test.\+test\+Update\+Block()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_a485adfe91fd2b9cd0d5be72bb4387d73_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00067_ab1e3815e4ce2d2ad013842f59d3d5dee}\label{a00067_ab1e3815e4ce2d2ad013842f59d3d5dee}} 
+\index{DLL.FileOperations@{DLL.FileOperations}!writeLine@{writeLine}}
+\index{writeLine@{writeLine}!DLL.FileOperations@{DLL.FileOperations}}
+\doxysubsubsection{\texorpdfstring{writeLine()}{writeLine()}}
+{\footnotesize\ttfamily static void DLL.\+File\+Operations.\+write\+Line (\begin{DoxyParamCaption}\item[{String}]{line,  }\item[{String}]{path,  }\item[{int}]{line\+Length }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00091_a500e5300460a44d06b1f50d5247c1c89}{DLL.\+Unit\+Test.\+test\+Write\+Line()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/ddf/a00067_ab1e3815e4ce2d2ad013842f59d3d5dee_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+HW/\+CE-\/103-\/2022-\/2023-\/\+HW4-\/\+Eray-\/\+Burak-\/\+Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\+DLL/\mbox{\hyperlink{a00023}{File\+Operations.\+java}}\end{DoxyCompactItemize}

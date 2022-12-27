@@ -1,0 +1,677 @@
+\hypertarget{a00075}{}\doxysection{DLL.\+Medicine\+Feature Class Reference}
+\label{a00075}\index{DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+final int \mbox{\hyperlink{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}{get\+Medicine\+Id}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a433e127e1a90c362d05d6d64ae89d6cd}{set\+Medicine\+Id}} (int value)
+\item 
+final String \mbox{\hyperlink{a00075_a503c489566fa23403c4beea92a160738}{get\+Medicine\+Name}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a89196046777b6ba08f4d73d9ebf6f36e}{set\+Medicine\+Name}} (String value)
+\item 
+final int \mbox{\hyperlink{a00075_a92155aef73a09c06dd6a5016f4e4592f}{get\+Quantity}} ()
+\item 
+final void \mbox{\hyperlink{a00075_ae42bbc28c520b064eeb466542d146f60}{set\+Quantity}} (int value)
+\item 
+final double \mbox{\hyperlink{a00075_aa88386f615818cdb2f5fbd0e105ef8da}{get\+Price}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}{set\+Price}} (double value)
+\item 
+final int \mbox{\hyperlink{a00075_a9f4b1b420f789a22b248b21469917a2b}{get\+Rack}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a11b5ce282d5f289b52dee1bf2152f670}{set\+Rack}} (int value)
+\item 
+final int \mbox{\hyperlink{a00075_aaa4b1c45646d44b003b6ee3740c1202f}{get\+Cabnit}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}{set\+Cabnit}} (int value)
+\item 
+final String \mbox{\hyperlink{a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd}{get\+Medicine\+Supplier}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a6c85c99544cd4165ab71764aaf996e15}{set\+Medicine\+Supplier}} (String value)
+\item 
+final String \mbox{\hyperlink{a00075_a33d7772a19ddf6ed4a88676eec209710}{get\+Company\+Name}} ()
+\item 
+final void \mbox{\hyperlink{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}{set\+Company\+Name}} (String value)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{Book\+To\+Byte\+Array\+Block}} (\mbox{\hyperlink{a00075}{Medicine\+Feature}} medicine)
+\item 
+static \mbox{\hyperlink{a00075}{Medicine\+Feature}} \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{Byte\+Array\+Block\+To\+Book}} (byte\mbox{[}$\,$\mbox{]} byte\+Array)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \mbox{\hyperlink{a00075_a27d4af8d530dbc15208283a008a0c4bc}{MEDICINE\+\_\+\+ID\+\_\+\+LENGTH}} = 4
+\item 
+static final int \mbox{\hyperlink{a00075_a6670f8846717a521326ea1bc872042ab}{MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} =50
+\item 
+static final int \mbox{\hyperlink{a00075_a96733f588513f89ccefe5f6bc23a3f7d}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} = 4
+\item 
+static final int \mbox{\hyperlink{a00075_a173291643065c2de32961d1fcd69fde0}{RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} = 4
+\item 
+static final int \mbox{\hyperlink{a00075_a4e24647bedf3f115c942035e4d25d3a1}{CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} = 4
+\item 
+static final int \mbox{\hyperlink{a00075_a31b067f8f10917fc47c76e4da7f346a6}{MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH}} =8
+\item 
+static final int \mbox{\hyperlink{a00075_a56a8bfd3d31204c185048fa6906b5521}{MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} = 50
+\item 
+static final int \mbox{\hyperlink{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}{COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} = 50
+\item 
+static final int \mbox{\hyperlink{a00075_a47a1594535d6b96308b0d290fcb1d04d}{MEDICINE\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}} = \mbox{\hyperlink{a00075_a27d4af8d530dbc15208283a008a0c4bc}{MEDICINE\+\_\+\+ID\+\_\+\+LENGTH}} +\mbox{\hyperlink{a00075_a96733f588513f89ccefe5f6bc23a3f7d}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a6670f8846717a521326ea1bc872042ab}{MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a31b067f8f10917fc47c76e4da7f346a6}{MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a173291643065c2de32961d1fcd69fde0}{RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a4e24647bedf3f115c942035e4d25d3a1}{CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a56a8bfd3d31204c185048fa6906b5521}{MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}{COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{a00075_ae886a930c9bd6b7f10695ddb18f3960f}{\+\_\+medicine\+Id}}
+\item 
+String \mbox{\hyperlink{a00075_a49c18bfa88465ab95955858203d5af7e}{\+\_\+medicine\+Name}}
+\item 
+int \mbox{\hyperlink{a00075_ae6803f85c6bc88fe35ed3992db111caf}{\+\_\+quantity}}
+\item 
+int \mbox{\hyperlink{a00075_a2f9abd9d254420bd1c8a823a6bc6c66d}{\+\_\+rack}}
+\item 
+double \mbox{\hyperlink{a00075_ad75cdd4bdfdcb7056a7534843fbadf52}{\+\_\+price}}
+\item 
+int \mbox{\hyperlink{a00075_a5e3415c5fb776eb3e01c8b4baf5dc3fb}{\+\_\+cabnit}}
+\item 
+String \mbox{\hyperlink{a00075_a2346355e6f17c017fa83f8390b40dac8}{\+\_\+medicine\+Supplier}}
+\item 
+String \mbox{\hyperlink{a00075_a111569d66855ab35076cb70b6771572a}{\+\_\+company\+Name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00075_a83fd68a7e2c2f12facdf83713dd69469}\label{a00075_a83fd68a7e2c2f12facdf83713dd69469}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!BookToByteArrayBlock@{BookToByteArrayBlock}}
+\index{BookToByteArrayBlock@{BookToByteArrayBlock}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{BookToByteArrayBlock()}{BookToByteArrayBlock()}}
+{\footnotesize\ttfamily static byte\mbox{[}$\,$\mbox{]} DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{a00075}{Medicine\+Feature}}}]{medicine }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00075_a4e24647bedf3f115c942035e4d25d3a1}{DLL.\+Medicine\+Feature.\+CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}{DLL.\+Medicine\+Feature.\+COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00063_a881e9485600fc1ed70ab403495d8164d}{DLL.\+Data\+Operations.\+double\+To\+Byte\+Array()}}, \mbox{\hyperlink{a00075_aaa4b1c45646d44b003b6ee3740c1202f}{DLL.\+Medicine\+Feature.\+get\+Cabnit()}}, \mbox{\hyperlink{a00075_a33d7772a19ddf6ed4a88676eec209710}{DLL.\+Medicine\+Feature.\+get\+Company\+Name()}}, \mbox{\hyperlink{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Id()}}, \mbox{\hyperlink{a00075_a503c489566fa23403c4beea92a160738}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Name()}}, \mbox{\hyperlink{a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Supplier()}}, \mbox{\hyperlink{a00075_aa88386f615818cdb2f5fbd0e105ef8da}{DLL.\+Medicine\+Feature.\+get\+Price()}}, \mbox{\hyperlink{a00075_a92155aef73a09c06dd6a5016f4e4592f}{DLL.\+Medicine\+Feature.\+get\+Quantity()}}, \mbox{\hyperlink{a00075_a9f4b1b420f789a22b248b21469917a2b}{DLL.\+Medicine\+Feature.\+get\+Rack()}}, \mbox{\hyperlink{a00063_a6c8f53888d6fe21819261ff36ad66cb2}{DLL.\+Data\+Operations.\+integer\+To\+Byte\+Array()}}, \mbox{\hyperlink{a00075_a47a1594535d6b96308b0d290fcb1d04d}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}}, \mbox{\hyperlink{a00075_a27d4af8d530dbc15208283a008a0c4bc}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+ID\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a6670f8846717a521326ea1bc872042ab}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a31b067f8f10917fc47c76e4da7f346a6}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a56a8bfd3d31204c185048fa6906b5521}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a96733f588513f89ccefe5f6bc23a3f7d}{DLL.\+Medicine\+Feature.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a173291643065c2de32961d1fcd69fde0}{DLL.\+Medicine\+Feature.\+RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}}, and \mbox{\hyperlink{a00063_ac5ca1a366782ef99ac92f19e6237caaf}{DLL.\+Data\+Operations.\+String\+To\+Byte\+Array()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a83fd68a7e2c2f12facdf83713dd69469_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a83fd68a7e2c2f12facdf83713dd69469_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_ad844ff746217a015eebe49c741e3c9ec}\label{a00075_ad844ff746217a015eebe49c741e3c9ec}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!ByteArrayBlockToBook@{ByteArrayBlockToBook}}
+\index{ByteArrayBlockToBook@{ByteArrayBlockToBook}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{ByteArrayBlockToBook()}{ByteArrayBlockToBook()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{a00075}{Medicine\+Feature}} DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{byte\+Array }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00063_aed383021eec286359cedf54b5c7ffd1e}{DLL.\+Data\+Operations.\+byte\+Array\+To\+Double()}}, \mbox{\hyperlink{a00063_ab3a88a10dfc73f210c2cfa39e58ba9e8}{DLL.\+Data\+Operations.\+byte\+Array\+To\+Integer()}}, \mbox{\hyperlink{a00063_a8fdb0fd57311fe2f06fbf43f850c251e}{DLL.\+Data\+Operations.\+byte\+Array\+To\+String()}}, \mbox{\hyperlink{a00075_a4e24647bedf3f115c942035e4d25d3a1}{DLL.\+Medicine\+Feature.\+CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}{DLL.\+Medicine\+Feature.\+COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Id()}}, \mbox{\hyperlink{a00075_a47a1594535d6b96308b0d290fcb1d04d}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE}}, \mbox{\hyperlink{a00075_a27d4af8d530dbc15208283a008a0c4bc}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+ID\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a6670f8846717a521326ea1bc872042ab}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a31b067f8f10917fc47c76e4da7f346a6}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a56a8bfd3d31204c185048fa6906b5521}{DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a96733f588513f89ccefe5f6bc23a3f7d}{DLL.\+Medicine\+Feature.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a173291643065c2de32961d1fcd69fde0}{DLL.\+Medicine\+Feature.\+RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}}, \mbox{\hyperlink{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}{DLL.\+Medicine\+Feature.\+set\+Cabnit()}}, \mbox{\hyperlink{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}{DLL.\+Medicine\+Feature.\+set\+Company\+Name()}}, \mbox{\hyperlink{a00075_a433e127e1a90c362d05d6d64ae89d6cd}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Id()}}, \mbox{\hyperlink{a00075_a89196046777b6ba08f4d73d9ebf6f36e}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Name()}}, \mbox{\hyperlink{a00075_a6c85c99544cd4165ab71764aaf996e15}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Supplier()}}, \mbox{\hyperlink{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}{DLL.\+Medicine\+Feature.\+set\+Price()}}, \mbox{\hyperlink{a00075_ae42bbc28c520b064eeb466542d146f60}{DLL.\+Medicine\+Feature.\+set\+Quantity()}}, and \mbox{\hyperlink{a00075_a11b5ce282d5f289b52dee1bf2152f670}{DLL.\+Medicine\+Feature.\+set\+Rack()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_ad844ff746217a015eebe49c741e3c9ec_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_ad844ff746217a015eebe49c741e3c9ec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_aaa4b1c45646d44b003b6ee3740c1202f}\label{a00075_aaa4b1c45646d44b003b6ee3740c1202f}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getCabnit@{getCabnit}}
+\index{getCabnit@{getCabnit}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getCabnit()}{getCabnit()}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+get\+Cabnit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a5e3415c5fb776eb3e01c8b4baf5dc3fb}{DLL.\+Medicine\+Feature.\+\_\+cabnit}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_aaa4b1c45646d44b003b6ee3740c1202f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a33d7772a19ddf6ed4a88676eec209710}\label{a00075_a33d7772a19ddf6ed4a88676eec209710}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getCompanyName@{getCompanyName}}
+\index{getCompanyName@{getCompanyName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getCompanyName()}{getCompanyName()}}
+{\footnotesize\ttfamily final String DLL.\+Medicine\+Feature.\+get\+Company\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a111569d66855ab35076cb70b6771572a}{DLL.\+Medicine\+Feature.\+\_\+company\+Name}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a33d7772a19ddf6ed4a88676eec209710_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}\label{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getMedicineId@{getMedicineId}}
+\index{getMedicineId@{getMedicineId}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getMedicineId()}{getMedicineId()}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+get\+Medicine\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ae886a930c9bd6b7f10695ddb18f3960f}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Id}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a03e5f29bc8701dae0ac78d1dc38ff66a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a503c489566fa23403c4beea92a160738}\label{a00075_a503c489566fa23403c4beea92a160738}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getMedicineName@{getMedicineName}}
+\index{getMedicineName@{getMedicineName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getMedicineName()}{getMedicineName()}}
+{\footnotesize\ttfamily final String DLL.\+Medicine\+Feature.\+get\+Medicine\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a49c18bfa88465ab95955858203d5af7e}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Name}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a503c489566fa23403c4beea92a160738_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd}\label{a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getMedicineSupplier@{getMedicineSupplier}}
+\index{getMedicineSupplier@{getMedicineSupplier}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getMedicineSupplier()}{getMedicineSupplier()}}
+{\footnotesize\ttfamily final String DLL.\+Medicine\+Feature.\+get\+Medicine\+Supplier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a2346355e6f17c017fa83f8390b40dac8}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Supplier}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, and \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_aa88386f615818cdb2f5fbd0e105ef8da}\label{a00075_aa88386f615818cdb2f5fbd0e105ef8da}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getPrice@{getPrice}}
+\index{getPrice@{getPrice}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getPrice()}{getPrice()}}
+{\footnotesize\ttfamily final double DLL.\+Medicine\+Feature.\+get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ad75cdd4bdfdcb7056a7534843fbadf52}{DLL.\+Medicine\+Feature.\+\_\+price}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_aa88386f615818cdb2f5fbd0e105ef8da_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a92155aef73a09c06dd6a5016f4e4592f}\label{a00075_a92155aef73a09c06dd6a5016f4e4592f}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getQuantity@{getQuantity}}
+\index{getQuantity@{getQuantity}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getQuantity()}{getQuantity()}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+get\+Quantity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ae6803f85c6bc88fe35ed3992db111caf}{DLL.\+Medicine\+Feature.\+\_\+quantity}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a92155aef73a09c06dd6a5016f4e4592f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a9f4b1b420f789a22b248b21469917a2b}\label{a00075_a9f4b1b420f789a22b248b21469917a2b}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!getRack@{getRack}}
+\index{getRack@{getRack}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{getRack()}{getRack()}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+get\+Rack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a2f9abd9d254420bd1c8a823a6bc6c66d}{DLL.\+Medicine\+Feature.\+\_\+rack}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a9f4b1b420f789a22b248b21469917a2b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}\label{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setCabnit@{setCabnit}}
+\index{setCabnit@{setCabnit}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setCabnit()}{setCabnit()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Cabnit (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a5e3415c5fb776eb3e01c8b4baf5dc3fb}{DLL.\+Medicine\+Feature.\+\_\+cabnit}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}\label{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setCompanyName@{setCompanyName}}
+\index{setCompanyName@{setCompanyName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setCompanyName()}{setCompanyName()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Company\+Name (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a111569d66855ab35076cb70b6771572a}{DLL.\+Medicine\+Feature.\+\_\+company\+Name}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a1a0255b5ab707a55ed0e704ce46c9ab5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a433e127e1a90c362d05d6d64ae89d6cd}\label{a00075_a433e127e1a90c362d05d6d64ae89d6cd}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setMedicineId@{setMedicineId}}
+\index{setMedicineId@{setMedicineId}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setMedicineId()}{setMedicineId()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Medicine\+Id (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ae886a930c9bd6b7f10695ddb18f3960f}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Id}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a433e127e1a90c362d05d6d64ae89d6cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a89196046777b6ba08f4d73d9ebf6f36e}\label{a00075_a89196046777b6ba08f4d73d9ebf6f36e}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setMedicineName@{setMedicineName}}
+\index{setMedicineName@{setMedicineName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setMedicineName()}{setMedicineName()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Medicine\+Name (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a49c18bfa88465ab95955858203d5af7e}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Name}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a89196046777b6ba08f4d73d9ebf6f36e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a6c85c99544cd4165ab71764aaf996e15}\label{a00075_a6c85c99544cd4165ab71764aaf996e15}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setMedicineSupplier@{setMedicineSupplier}}
+\index{setMedicineSupplier@{setMedicineSupplier}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setMedicineSupplier()}{setMedicineSupplier()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Medicine\+Supplier (\begin{DoxyParamCaption}\item[{String}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a2346355e6f17c017fa83f8390b40dac8}{DLL.\+Medicine\+Feature.\+\_\+medicine\+Supplier}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a6c85c99544cd4165ab71764aaf996e15_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}\label{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setPrice@{setPrice}}
+\index{setPrice@{setPrice}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setPrice()}{setPrice()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Price (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ad75cdd4bdfdcb7056a7534843fbadf52}{DLL.\+Medicine\+Feature.\+\_\+price}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a2e83c2c9cd58f8edc61a785a46fb20ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_ae42bbc28c520b064eeb466542d146f60}\label{a00075_ae42bbc28c520b064eeb466542d146f60}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setQuantity@{setQuantity}}
+\index{setQuantity@{setQuantity}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setQuantity()}{setQuantity()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Quantity (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_ae6803f85c6bc88fe35ed3992db111caf}{DLL.\+Medicine\+Feature.\+\_\+quantity}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_ae42bbc28c520b064eeb466542d146f60_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00075_a11b5ce282d5f289b52dee1bf2152f670}\label{a00075_a11b5ce282d5f289b52dee1bf2152f670}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!setRack@{setRack}}
+\index{setRack@{setRack}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{setRack()}{setRack()}}
+{\footnotesize\ttfamily final void DLL.\+Medicine\+Feature.\+set\+Rack (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{a00075_a2f9abd9d254420bd1c8a823a6bc6c66d}{DLL.\+Medicine\+Feature.\+\_\+rack}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, and \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/da5/a00075_a11b5ce282d5f289b52dee1bf2152f670_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{a00075_a5e3415c5fb776eb3e01c8b4baf5dc3fb}\label{a00075_a5e3415c5fb776eb3e01c8b4baf5dc3fb}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_cabnit@{\_cabnit}}
+\index{\_cabnit@{\_cabnit}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_cabnit}{\_cabnit}}
+{\footnotesize\ttfamily int DLL.\+Medicine\+Feature.\+\_\+cabnit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_aaa4b1c45646d44b003b6ee3740c1202f}{DLL.\+Medicine\+Feature.\+get\+Cabnit()}}, and \mbox{\hyperlink{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}{DLL.\+Medicine\+Feature.\+set\+Cabnit()}}.
+
+\mbox{\Hypertarget{a00075_a111569d66855ab35076cb70b6771572a}\label{a00075_a111569d66855ab35076cb70b6771572a}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_companyName@{\_companyName}}
+\index{\_companyName@{\_companyName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_companyName}{\_companyName}}
+{\footnotesize\ttfamily String DLL.\+Medicine\+Feature.\+\_\+company\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a33d7772a19ddf6ed4a88676eec209710}{DLL.\+Medicine\+Feature.\+get\+Company\+Name()}}, and \mbox{\hyperlink{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}{DLL.\+Medicine\+Feature.\+set\+Company\+Name()}}.
+
+\mbox{\Hypertarget{a00075_ae886a930c9bd6b7f10695ddb18f3960f}\label{a00075_ae886a930c9bd6b7f10695ddb18f3960f}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_medicineId@{\_medicineId}}
+\index{\_medicineId@{\_medicineId}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_medicineId}{\_medicineId}}
+{\footnotesize\ttfamily int DLL.\+Medicine\+Feature.\+\_\+medicine\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a03e5f29bc8701dae0ac78d1dc38ff66a}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Id()}}, and \mbox{\hyperlink{a00075_a433e127e1a90c362d05d6d64ae89d6cd}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Id()}}.
+
+\mbox{\Hypertarget{a00075_a49c18bfa88465ab95955858203d5af7e}\label{a00075_a49c18bfa88465ab95955858203d5af7e}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_medicineName@{\_medicineName}}
+\index{\_medicineName@{\_medicineName}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_medicineName}{\_medicineName}}
+{\footnotesize\ttfamily String DLL.\+Medicine\+Feature.\+\_\+medicine\+Name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a503c489566fa23403c4beea92a160738}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Name()}}, and \mbox{\hyperlink{a00075_a89196046777b6ba08f4d73d9ebf6f36e}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Name()}}.
+
+\mbox{\Hypertarget{a00075_a2346355e6f17c017fa83f8390b40dac8}\label{a00075_a2346355e6f17c017fa83f8390b40dac8}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_medicineSupplier@{\_medicineSupplier}}
+\index{\_medicineSupplier@{\_medicineSupplier}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_medicineSupplier}{\_medicineSupplier}}
+{\footnotesize\ttfamily String DLL.\+Medicine\+Feature.\+\_\+medicine\+Supplier\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a1bae5e60c98af9d9dbae0eb0b174a7bd}{DLL.\+Medicine\+Feature.\+get\+Medicine\+Supplier()}}, and \mbox{\hyperlink{a00075_a6c85c99544cd4165ab71764aaf996e15}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Supplier()}}.
+
+\mbox{\Hypertarget{a00075_ad75cdd4bdfdcb7056a7534843fbadf52}\label{a00075_ad75cdd4bdfdcb7056a7534843fbadf52}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_price@{\_price}}
+\index{\_price@{\_price}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_price}{\_price}}
+{\footnotesize\ttfamily double DLL.\+Medicine\+Feature.\+\_\+price\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_aa88386f615818cdb2f5fbd0e105ef8da}{DLL.\+Medicine\+Feature.\+get\+Price()}}, and \mbox{\hyperlink{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}{DLL.\+Medicine\+Feature.\+set\+Price()}}.
+
+\mbox{\Hypertarget{a00075_ae6803f85c6bc88fe35ed3992db111caf}\label{a00075_ae6803f85c6bc88fe35ed3992db111caf}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_quantity@{\_quantity}}
+\index{\_quantity@{\_quantity}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_quantity}{\_quantity}}
+{\footnotesize\ttfamily int DLL.\+Medicine\+Feature.\+\_\+quantity\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a92155aef73a09c06dd6a5016f4e4592f}{DLL.\+Medicine\+Feature.\+get\+Quantity()}}, and \mbox{\hyperlink{a00075_ae42bbc28c520b064eeb466542d146f60}{DLL.\+Medicine\+Feature.\+set\+Quantity()}}.
+
+\mbox{\Hypertarget{a00075_a2f9abd9d254420bd1c8a823a6bc6c66d}\label{a00075_a2f9abd9d254420bd1c8a823a6bc6c66d}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!\_rack@{\_rack}}
+\index{\_rack@{\_rack}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{\_rack}{\_rack}}
+{\footnotesize\ttfamily int DLL.\+Medicine\+Feature.\+\_\+rack\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a9f4b1b420f789a22b248b21469917a2b}{DLL.\+Medicine\+Feature.\+get\+Rack()}}, and \mbox{\hyperlink{a00075_a11b5ce282d5f289b52dee1bf2152f670}{DLL.\+Medicine\+Feature.\+set\+Rack()}}.
+
+\mbox{\Hypertarget{a00075_a4e24647bedf3f115c942035e4d25d3a1}\label{a00075_a4e24647bedf3f115c942035e4d25d3a1}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!CABNIT\_NUMBER\_MAX\_LENGTH@{CABNIT\_NUMBER\_MAX\_LENGTH}}
+\index{CABNIT\_NUMBER\_MAX\_LENGTH@{CABNIT\_NUMBER\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{CABNIT\_NUMBER\_MAX\_LENGTH}{CABNIT\_NUMBER\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}\label{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!COMPANY\_NAME\_MAX\_LENGTH@{COMPANY\_NAME\_MAX\_LENGTH}}
+\index{COMPANY\_NAME\_MAX\_LENGTH@{COMPANY\_NAME\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{COMPANY\_NAME\_MAX\_LENGTH}{COMPANY\_NAME\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH = 50\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a47a1594535d6b96308b0d290fcb1d04d}\label{a00075_a47a1594535d6b96308b0d290fcb1d04d}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!MEDICINE\_DATA\_BLOCK\_SIZE@{MEDICINE\_DATA\_BLOCK\_SIZE}}
+\index{MEDICINE\_DATA\_BLOCK\_SIZE@{MEDICINE\_DATA\_BLOCK\_SIZE}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{MEDICINE\_DATA\_BLOCK\_SIZE}{MEDICINE\_DATA\_BLOCK\_SIZE}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+DATA\+\_\+\+BLOCK\+\_\+\+SIZE = \mbox{\hyperlink{a00075_a27d4af8d530dbc15208283a008a0c4bc}{MEDICINE\+\_\+\+ID\+\_\+\+LENGTH}} +\mbox{\hyperlink{a00075_a96733f588513f89ccefe5f6bc23a3f7d}{QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a6670f8846717a521326ea1bc872042ab}{MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a31b067f8f10917fc47c76e4da7f346a6}{MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a173291643065c2de32961d1fcd69fde0}{RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a4e24647bedf3f115c942035e4d25d3a1}{CABNIT\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a56a8bfd3d31204c185048fa6906b5521}{MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}} + \mbox{\hyperlink{a00075_a373c342d845f0e4bc2b51ae7c8666cd4}{COMPANY\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH}}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}, \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, \mbox{\hyperlink{a00051_ad82b6ad2c463b0a307397d02ddf83356}{APP.\+Main\+Menu.\+option4()}}, and \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}.
+
+\mbox{\Hypertarget{a00075_a27d4af8d530dbc15208283a008a0c4bc}\label{a00075_a27d4af8d530dbc15208283a008a0c4bc}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!MEDICINE\_ID\_LENGTH@{MEDICINE\_ID\_LENGTH}}
+\index{MEDICINE\_ID\_LENGTH@{MEDICINE\_ID\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{MEDICINE\_ID\_LENGTH}{MEDICINE\_ID\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+ID\+\_\+\+LENGTH = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a6670f8846717a521326ea1bc872042ab}\label{a00075_a6670f8846717a521326ea1bc872042ab}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!MEDICINE\_NAME\_MAX\_LENGTH@{MEDICINE\_NAME\_MAX\_LENGTH}}
+\index{MEDICINE\_NAME\_MAX\_LENGTH@{MEDICINE\_NAME\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{MEDICINE\_NAME\_MAX\_LENGTH}{MEDICINE\_NAME\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH =50\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a31b067f8f10917fc47c76e4da7f346a6}\label{a00075_a31b067f8f10917fc47c76e4da7f346a6}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!MEDICINE\_PRICE\_LENGTH@{MEDICINE\_PRICE\_LENGTH}}
+\index{MEDICINE\_PRICE\_LENGTH@{MEDICINE\_PRICE\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{MEDICINE\_PRICE\_LENGTH}{MEDICINE\_PRICE\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+PRICE\+\_\+\+LENGTH =8\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a56a8bfd3d31204c185048fa6906b5521}\label{a00075_a56a8bfd3d31204c185048fa6906b5521}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH@{MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}}
+\index{MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH@{MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}{MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+MEDICINE\+\_\+\+SUPPLIER\+\_\+\+NAME\+\_\+\+MAX\+\_\+\+LENGTH = 50\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a96733f588513f89ccefe5f6bc23a3f7d}\label{a00075_a96733f588513f89ccefe5f6bc23a3f7d}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!QUANTITY\_MAX\_LENGTH@{QUANTITY\_MAX\_LENGTH}}
+\index{QUANTITY\_MAX\_LENGTH@{QUANTITY\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{QUANTITY\_MAX\_LENGTH}{QUANTITY\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+QUANTITY\+\_\+\+MAX\+\_\+\+LENGTH = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+\mbox{\Hypertarget{a00075_a173291643065c2de32961d1fcd69fde0}\label{a00075_a173291643065c2de32961d1fcd69fde0}} 
+\index{DLL.MedicineFeature@{DLL.MedicineFeature}!RACK\_NUMBER\_MAX\_LENGTH@{RACK\_NUMBER\_MAX\_LENGTH}}
+\index{RACK\_NUMBER\_MAX\_LENGTH@{RACK\_NUMBER\_MAX\_LENGTH}!DLL.MedicineFeature@{DLL.MedicineFeature}}
+\doxysubsubsection{\texorpdfstring{RACK\_NUMBER\_MAX\_LENGTH}{RACK\_NUMBER\_MAX\_LENGTH}}
+{\footnotesize\ttfamily final int DLL.\+Medicine\+Feature.\+RACK\+\_\+\+NUMBER\+\_\+\+MAX\+\_\+\+LENGTH = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, and \mbox{\hyperlink{a00075_ad844ff746217a015eebe49c741e3c9ec}{DLL.\+Medicine\+Feature.\+Byte\+Array\+Block\+To\+Book()}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+HW/\+CE-\/103-\/2022-\/2023-\/\+HW4-\/\+Eray-\/\+Burak-\/\+Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\+DLL/\mbox{\hyperlink{a00029}{Medicine\+Feature.\+java}}\end{DoxyCompactItemize}

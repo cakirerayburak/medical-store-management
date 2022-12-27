@@ -1,0 +1,224 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Package List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Package APP}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Package DLL}{7}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bill\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature Class Reference}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Member Function Documentation}{10}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}BookToByteArrayBlock()}{10}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}ByteArrayBlockToBook()}{11}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}getBillId()}{11}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}getCustomerId()}{12}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}getMedicineId()}{12}{subsubsection.5.1.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.1.6}getMedicineQuantity()}{12}{subsubsection.5.1.1.6}%
+\contentsline {subsubsection}{\numberline {5.1.1.7}setCustomerId()}{13}{subsubsection.5.1.1.7}%
+\contentsline {subsubsection}{\numberline {5.1.1.8}setId()}{13}{subsubsection.5.1.1.8}%
+\contentsline {subsubsection}{\numberline {5.1.1.9}setMedicineId()}{14}{subsubsection.5.1.1.9}%
+\contentsline {subsubsection}{\numberline {5.1.1.10}setMedicineQuantity()}{14}{subsubsection.5.1.1.10}%
+\contentsline {subsection}{\numberline {5.1.2}Member Data Documentation}{14}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}\_billId}{14}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}\_customerId}{15}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}\_medicineId}{15}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}\_medicineQuantity}{15}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}BILL\_DATA\_BLOCK\_SIZE}{15}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}BILL\_ID\_LENGTH}{15}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}CUSTOMER\_ID\_MAX\_LENGTH}{15}{subsubsection.5.1.2.7}%
+\contentsline {subsubsection}{\numberline {5.1.2.8}MEDICINE\_ID\_LENGTH}{16}{subsubsection.5.1.2.8}%
+\contentsline {subsubsection}{\numberline {5.1.2.9}MEDICINE\_QUANTITY\_LENGTH}{16}{subsubsection.5.1.2.9}%
+\contentsline {section}{\numberline {5.2}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Customer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature Class Reference}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Member Function Documentation}{17}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}BookToByteArrayBlock()}{17}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}ByteArrayBlockToBook()}{18}{subsubsection.5.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.2.1.3}getCityName()}{19}{subsubsection.5.2.1.3}%
+\contentsline {subsubsection}{\numberline {5.2.1.4}getContactNum()}{19}{subsubsection.5.2.1.4}%
+\contentsline {subsubsection}{\numberline {5.2.1.5}getCustomerName()}{20}{subsubsection.5.2.1.5}%
+\contentsline {subsubsection}{\numberline {5.2.1.6}getEmail()}{20}{subsubsection.5.2.1.6}%
+\contentsline {subsubsection}{\numberline {5.2.1.7}getId()}{21}{subsubsection.5.2.1.7}%
+\contentsline {subsubsection}{\numberline {5.2.1.8}setCityName()}{21}{subsubsection.5.2.1.8}%
+\contentsline {subsubsection}{\numberline {5.2.1.9}setContactNum()}{22}{subsubsection.5.2.1.9}%
+\contentsline {subsubsection}{\numberline {5.2.1.10}setCustomerName()}{22}{subsubsection.5.2.1.10}%
+\contentsline {subsubsection}{\numberline {5.2.1.11}setEmail()}{23}{subsubsection.5.2.1.11}%
+\contentsline {subsubsection}{\numberline {5.2.1.12}setId()}{23}{subsubsection.5.2.1.12}%
+\contentsline {subsection}{\numberline {5.2.2}Member Data Documentation}{24}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}\_cityName}{24}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}\_contactNum}{24}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}\_customerName}{24}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}\_email}{24}{subsubsection.5.2.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}\_id}{25}{subsubsection.5.2.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.2.6}CITY\_NAME\_MAX\_LENGTH}{25}{subsubsection.5.2.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.2.7}CONTACT\_NUMBER\_MAX\_LENGTH}{25}{subsubsection.5.2.2.7}%
+\contentsline {subsubsection}{\numberline {5.2.2.8}CUSTOMER\_DATA\_BLOCK\_SIZE}{25}{subsubsection.5.2.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.2.9}CUSTOMER\_NAME\_MAX\_LENGTH}{25}{subsubsection.5.2.2.9}%
+\contentsline {subsubsection}{\numberline {5.2.2.10}EMAİL\_MAX\_LENGTH}{25}{subsubsection.5.2.2.10}%
+\contentsline {subsubsection}{\numberline {5.2.2.11}ID\_LENGTH}{26}{subsubsection.5.2.2.11}%
+\contentsline {section}{\numberline {5.3}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations Class Reference}{26}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Member Function Documentation}{26}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}byteArrayToDouble()}{26}{subsubsection.5.3.1.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.2}byteArrayToFloat()}{27}{subsubsection.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.1.3}byteArrayToInteger()}{27}{subsubsection.5.3.1.3}%
+\contentsline {subsubsection}{\numberline {5.3.1.4}byteArrayToLong()}{28}{subsubsection.5.3.1.4}%
+\contentsline {subsubsection}{\numberline {5.3.1.5}byteArrayToString()}{28}{subsubsection.5.3.1.5}%
+\contentsline {subsubsection}{\numberline {5.3.1.6}convertLongToByteArray()}{29}{subsubsection.5.3.1.6}%
+\contentsline {subsubsection}{\numberline {5.3.1.7}doubleToByteArray()}{29}{subsubsection.5.3.1.7}%
+\contentsline {subsubsection}{\numberline {5.3.1.8}floatToByteArray()}{29}{subsubsection.5.3.1.8}%
+\contentsline {subsubsection}{\numberline {5.3.1.9}GetInt()}{30}{subsubsection.5.3.1.9}%
+\contentsline {subsubsection}{\numberline {5.3.1.10}integerToByteArray()}{30}{subsubsection.5.3.1.10}%
+\contentsline {subsubsection}{\numberline {5.3.1.11}IsHex()}{31}{subsubsection.5.3.1.11}%
+\contentsline {subsubsection}{\numberline {5.3.1.12}StringToByteArray()}{31}{subsubsection.5.3.1.12}%
+\contentsline {subsubsection}{\numberline {5.3.1.13}ToAscii()}{32}{subsubsection.5.3.1.13}%
+\contentsline {subsubsection}{\numberline {5.3.1.14}ToByte()}{32}{subsubsection.5.3.1.14}%
+\contentsline {subsubsection}{\numberline {5.3.1.15}ToHex()}{32}{subsubsection.5.3.1.15}%
+\contentsline {section}{\numberline {5.4}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations Class Reference}{32}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Member Function Documentation}{33}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}appendBlock()}{33}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}deleteBlock()}{33}{subsubsection.5.4.1.2}%
+\contentsline {subsubsection}{\numberline {5.4.1.3}deleteBlock2()}{34}{subsubsection.5.4.1.3}%
+\contentsline {subsubsection}{\numberline {5.4.1.4}readBlock()}{34}{subsubsection.5.4.1.4}%
+\contentsline {subsubsection}{\numberline {5.4.1.5}updateBlock()}{35}{subsubsection.5.4.1.5}%
+\contentsline {subsubsection}{\numberline {5.4.1.6}writeLine()}{35}{subsubsection.5.4.1.6}%
+\contentsline {section}{\numberline {5.5}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions Class Reference}{36}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Member Function Documentation}{36}{subsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.1}AddBill()}{36}{subsubsection.5.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.2}AddCustomer()}{37}{subsubsection.5.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.5.1.3}AddMedicine()}{38}{subsubsection.5.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.5.1.4}AddSaleMedicine()}{39}{subsubsection.5.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.5.1.5}AddSupplier()}{40}{subsubsection.5.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.5.1.6}ControlFile()}{41}{subsubsection.5.5.1.6}%
+\contentsline {section}{\numberline {5.6}APP.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu Class Reference}{42}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Member Function Documentation}{42}{subsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.1}main()}{43}{subsubsection.5.6.1.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.2}option1()}{44}{subsubsection.5.6.1.2}%
+\contentsline {subsubsection}{\numberline {5.6.1.3}option2()}{45}{subsubsection.5.6.1.3}%
+\contentsline {subsubsection}{\numberline {5.6.1.4}option3()}{46}{subsubsection.5.6.1.4}%
+\contentsline {subsubsection}{\numberline {5.6.1.5}option4()}{48}{subsubsection.5.6.1.5}%
+\contentsline {subsubsection}{\numberline {5.6.1.6}option5()}{50}{subsubsection.5.6.1.6}%
+\contentsline {subsubsection}{\numberline {5.6.1.7}option6()}{51}{subsubsection.5.6.1.7}%
+\contentsline {section}{\numberline {5.7}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature Class Reference}{51}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Member Function Documentation}{52}{subsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.1}BookToByteArrayBlock()}{52}{subsubsection.5.7.1.1}%
+\contentsline {subsubsection}{\numberline {5.7.1.2}ByteArrayBlockToBook()}{53}{subsubsection.5.7.1.2}%
+\contentsline {subsubsection}{\numberline {5.7.1.3}getCabnit()}{55}{subsubsection.5.7.1.3}%
+\contentsline {subsubsection}{\numberline {5.7.1.4}getCompanyName()}{55}{subsubsection.5.7.1.4}%
+\contentsline {subsubsection}{\numberline {5.7.1.5}getMedicineId()}{56}{subsubsection.5.7.1.5}%
+\contentsline {subsubsection}{\numberline {5.7.1.6}getMedicineName()}{56}{subsubsection.5.7.1.6}%
+\contentsline {subsubsection}{\numberline {5.7.1.7}getMedicineSupplier()}{57}{subsubsection.5.7.1.7}%
+\contentsline {subsubsection}{\numberline {5.7.1.8}getPrice()}{57}{subsubsection.5.7.1.8}%
+\contentsline {subsubsection}{\numberline {5.7.1.9}getQuantity()}{58}{subsubsection.5.7.1.9}%
+\contentsline {subsubsection}{\numberline {5.7.1.10}getRack()}{58}{subsubsection.5.7.1.10}%
+\contentsline {subsubsection}{\numberline {5.7.1.11}setCabnit()}{59}{subsubsection.5.7.1.11}%
+\contentsline {subsubsection}{\numberline {5.7.1.12}setCompanyName()}{59}{subsubsection.5.7.1.12}%
+\contentsline {subsubsection}{\numberline {5.7.1.13}setMedicineId()}{60}{subsubsection.5.7.1.13}%
+\contentsline {subsubsection}{\numberline {5.7.1.14}setMedicineName()}{60}{subsubsection.5.7.1.14}%
+\contentsline {subsubsection}{\numberline {5.7.1.15}setMedicineSupplier()}{61}{subsubsection.5.7.1.15}%
+\contentsline {subsubsection}{\numberline {5.7.1.16}setPrice()}{61}{subsubsection.5.7.1.16}%
+\contentsline {subsubsection}{\numberline {5.7.1.17}setQuantity()}{62}{subsubsection.5.7.1.17}%
+\contentsline {subsubsection}{\numberline {5.7.1.18}setRack()}{62}{subsubsection.5.7.1.18}%
+\contentsline {subsection}{\numberline {5.7.2}Member Data Documentation}{62}{subsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.1}\_cabnit}{62}{subsubsection.5.7.2.1}%
+\contentsline {subsubsection}{\numberline {5.7.2.2}\_companyName}{63}{subsubsection.5.7.2.2}%
+\contentsline {subsubsection}{\numberline {5.7.2.3}\_medicineId}{63}{subsubsection.5.7.2.3}%
+\contentsline {subsubsection}{\numberline {5.7.2.4}\_medicineName}{63}{subsubsection.5.7.2.4}%
+\contentsline {subsubsection}{\numberline {5.7.2.5}\_medicineSupplier}{63}{subsubsection.5.7.2.5}%
+\contentsline {subsubsection}{\numberline {5.7.2.6}\_price}{63}{subsubsection.5.7.2.6}%
+\contentsline {subsubsection}{\numberline {5.7.2.7}\_quantity}{63}{subsubsection.5.7.2.7}%
+\contentsline {subsubsection}{\numberline {5.7.2.8}\_rack}{64}{subsubsection.5.7.2.8}%
+\contentsline {subsubsection}{\numberline {5.7.2.9}CABNIT\_NUMBER\_MAX\_LENGTH}{64}{subsubsection.5.7.2.9}%
+\contentsline {subsubsection}{\numberline {5.7.2.10}COMPANY\_NAME\_MAX\_LENGTH}{64}{subsubsection.5.7.2.10}%
+\contentsline {subsubsection}{\numberline {5.7.2.11}MEDICINE\_DATA\_BLOCK\_SIZE}{64}{subsubsection.5.7.2.11}%
+\contentsline {subsubsection}{\numberline {5.7.2.12}MEDICINE\_ID\_LENGTH}{64}{subsubsection.5.7.2.12}%
+\contentsline {subsubsection}{\numberline {5.7.2.13}MEDICINE\_NAME\_MAX\_LENGTH}{64}{subsubsection.5.7.2.13}%
+\contentsline {subsubsection}{\numberline {5.7.2.14}MEDICINE\_PRICE\_LENGTH}{65}{subsubsection.5.7.2.14}%
+\contentsline {subsubsection}{\numberline {5.7.2.15}MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}{65}{subsubsection.5.7.2.15}%
+\contentsline {subsubsection}{\numberline {5.7.2.16}QUANTITY\_MAX\_LENGTH}{65}{subsubsection.5.7.2.16}%
+\contentsline {subsubsection}{\numberline {5.7.2.17}RACK\_NUMBER\_MAX\_LENGTH}{65}{subsubsection.5.7.2.17}%
+\contentsline {section}{\numberline {5.8}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Design Class Reference}{65}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Member Function Documentation}{65}{subsection.5.8.1}%
+\contentsline {subsubsection}{\numberline {5.8.1.1}printMenu()}{66}{subsubsection.5.8.1.1}%
+\contentsline {section}{\numberline {5.9}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sale\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature Class Reference}{66}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Member Function Documentation}{67}{subsection.5.9.1}%
+\contentsline {subsubsection}{\numberline {5.9.1.1}BookToByteArrayBlock()}{67}{subsubsection.5.9.1.1}%
+\contentsline {subsubsection}{\numberline {5.9.1.2}ByteArrayBlockToBook()}{68}{subsubsection.5.9.1.2}%
+\contentsline {subsubsection}{\numberline {5.9.1.3}getCustomerId()}{69}{subsubsection.5.9.1.3}%
+\contentsline {subsubsection}{\numberline {5.9.1.4}getMedicineId()}{69}{subsubsection.5.9.1.4}%
+\contentsline {subsubsection}{\numberline {5.9.1.5}getMedicineQuantity()}{70}{subsubsection.5.9.1.5}%
+\contentsline {subsubsection}{\numberline {5.9.1.6}getSaleDate()}{70}{subsubsection.5.9.1.6}%
+\contentsline {subsubsection}{\numberline {5.9.1.7}setCustomerId()}{70}{subsubsection.5.9.1.7}%
+\contentsline {subsubsection}{\numberline {5.9.1.8}setMedicineId()}{71}{subsubsection.5.9.1.8}%
+\contentsline {subsubsection}{\numberline {5.9.1.9}setMedicineQuantity()}{71}{subsubsection.5.9.1.9}%
+\contentsline {subsubsection}{\numberline {5.9.1.10}setSaleDate()}{71}{subsubsection.5.9.1.10}%
+\contentsline {subsection}{\numberline {5.9.2}Member Data Documentation}{72}{subsection.5.9.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.1}\_customerId}{72}{subsubsection.5.9.2.1}%
+\contentsline {subsubsection}{\numberline {5.9.2.2}\_medicineId}{72}{subsubsection.5.9.2.2}%
+\contentsline {subsubsection}{\numberline {5.9.2.3}\_medicineQuantity}{72}{subsubsection.5.9.2.3}%
+\contentsline {subsubsection}{\numberline {5.9.2.4}\_saleDate}{72}{subsubsection.5.9.2.4}%
+\contentsline {subsubsection}{\numberline {5.9.2.5}CUSTOMER\_ID\_MAX\_LENGTH}{72}{subsubsection.5.9.2.5}%
+\contentsline {subsubsection}{\numberline {5.9.2.6}MEDICINE\_ID\_LENGTH}{73}{subsubsection.5.9.2.6}%
+\contentsline {subsubsection}{\numberline {5.9.2.7}MEDICINE\_QUANTITY\_LENGTH}{73}{subsubsection.5.9.2.7}%
+\contentsline {subsubsection}{\numberline {5.9.2.8}SALE\_DATA\_BLOCK\_SIZE}{73}{subsubsection.5.9.2.8}%
+\contentsline {subsubsection}{\numberline {5.9.2.9}SALE\_DATE}{73}{subsubsection.5.9.2.9}%
+\contentsline {section}{\numberline {5.10}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Supplier\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature Class Reference}{73}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Member Function Documentation}{74}{subsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.1}BookToByteArrayBlock()}{74}{subsubsection.5.10.1.1}%
+\contentsline {subsubsection}{\numberline {5.10.1.2}ByteArrayBlockToBook()}{75}{subsubsection.5.10.1.2}%
+\contentsline {subsubsection}{\numberline {5.10.1.3}getCityName()}{76}{subsubsection.5.10.1.3}%
+\contentsline {subsubsection}{\numberline {5.10.1.4}getContactNum()}{77}{subsubsection.5.10.1.4}%
+\contentsline {subsubsection}{\numberline {5.10.1.5}getEmail()}{77}{subsubsection.5.10.1.5}%
+\contentsline {subsubsection}{\numberline {5.10.1.6}getId()}{78}{subsubsection.5.10.1.6}%
+\contentsline {subsubsection}{\numberline {5.10.1.7}getSupplierName()}{78}{subsubsection.5.10.1.7}%
+\contentsline {subsubsection}{\numberline {5.10.1.8}setCityName()}{79}{subsubsection.5.10.1.8}%
+\contentsline {subsubsection}{\numberline {5.10.1.9}setContactNum()}{79}{subsubsection.5.10.1.9}%
+\contentsline {subsubsection}{\numberline {5.10.1.10}setEmail()}{80}{subsubsection.5.10.1.10}%
+\contentsline {subsubsection}{\numberline {5.10.1.11}setId()}{80}{subsubsection.5.10.1.11}%
+\contentsline {subsubsection}{\numberline {5.10.1.12}setSupplierName()}{81}{subsubsection.5.10.1.12}%
+\contentsline {subsection}{\numberline {5.10.2}Member Data Documentation}{81}{subsection.5.10.2}%
+\contentsline {subsubsection}{\numberline {5.10.2.1}\_cityName}{81}{subsubsection.5.10.2.1}%
+\contentsline {subsubsection}{\numberline {5.10.2.2}\_contactNum}{81}{subsubsection.5.10.2.2}%
+\contentsline {subsubsection}{\numberline {5.10.2.3}\_email}{81}{subsubsection.5.10.2.3}%
+\contentsline {subsubsection}{\numberline {5.10.2.4}\_id}{82}{subsubsection.5.10.2.4}%
+\contentsline {subsubsection}{\numberline {5.10.2.5}\_supplierName}{82}{subsubsection.5.10.2.5}%
+\contentsline {subsubsection}{\numberline {5.10.2.6}CITY\_NAME\_MAX\_LENGTH}{82}{subsubsection.5.10.2.6}%
+\contentsline {subsubsection}{\numberline {5.10.2.7}CONTACT\_NUMBER\_MAX\_LENGTH}{82}{subsubsection.5.10.2.7}%
+\contentsline {subsubsection}{\numberline {5.10.2.8}EMAİL\_MAX\_LENGTH}{82}{subsubsection.5.10.2.8}%
+\contentsline {subsubsection}{\numberline {5.10.2.9}ID\_LENGTH}{82}{subsubsection.5.10.2.9}%
+\contentsline {subsubsection}{\numberline {5.10.2.10}SUPPLIER\_DATA\_BLOCK\_SIZE}{83}{subsubsection.5.10.2.10}%
+\contentsline {subsubsection}{\numberline {5.10.2.11}SUPPLIER\_NAME\_MAX\_LENGTH}{83}{subsubsection.5.10.2.11}%
+\contentsline {section}{\numberline {5.11}DLL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{83}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Member Function Documentation}{83}{subsection.5.11.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.1}testAddBill()}{84}{subsubsection.5.11.1.1}%
+\contentsline {subsubsection}{\numberline {5.11.1.2}testAddCustomer()}{84}{subsubsection.5.11.1.2}%
+\contentsline {subsubsection}{\numberline {5.11.1.3}testAddMedicine()}{85}{subsubsection.5.11.1.3}%
+\contentsline {subsubsection}{\numberline {5.11.1.4}testAddSaleMedicine()}{85}{subsubsection.5.11.1.4}%
+\contentsline {subsubsection}{\numberline {5.11.1.5}testAddSupplier()}{85}{subsubsection.5.11.1.5}%
+\contentsline {subsubsection}{\numberline {5.11.1.6}testByteArrayBlockToBook()}{86}{subsubsection.5.11.1.6}%
+\contentsline {subsubsection}{\numberline {5.11.1.7}testByteArrayToFloat()}{87}{subsubsection.5.11.1.7}%
+\contentsline {subsubsection}{\numberline {5.11.1.8}testByteArrayToHexString()}{88}{subsubsection.5.11.1.8}%
+\contentsline {subsubsection}{\numberline {5.11.1.9}testByteArrayToInteger()}{88}{subsubsection.5.11.1.9}%
+\contentsline {subsubsection}{\numberline {5.11.1.10}testByteArrayToLong()}{88}{subsubsection.5.11.1.10}%
+\contentsline {subsubsection}{\numberline {5.11.1.11}testByteArrayToString()}{89}{subsubsection.5.11.1.11}%
+\contentsline {subsubsection}{\numberline {5.11.1.12}testGetInt()}{89}{subsubsection.5.11.1.12}%
+\contentsline {subsubsection}{\numberline {5.11.1.13}testHexStringToByteArray()}{89}{subsubsection.5.11.1.13}%
+\contentsline {subsubsection}{\numberline {5.11.1.14}testIsHex()}{90}{subsubsection.5.11.1.14}%
+\contentsline {subsubsection}{\numberline {5.11.1.15}testReadBlock()}{90}{subsubsection.5.11.1.15}%
+\contentsline {subsubsection}{\numberline {5.11.1.16}testSupplierCreation()}{90}{subsubsection.5.11.1.16}%
+\contentsline {subsubsection}{\numberline {5.11.1.17}testSupplierCreationAndFileWriting()}{91}{subsubsection.5.11.1.17}%
+\contentsline {subsubsection}{\numberline {5.11.1.18}testUpdateBlock()}{92}{subsubsection.5.11.1.18}%
+\contentsline {subsubsection}{\numberline {5.11.1.19}testWriteLine()}{92}{subsubsection.5.11.1.19}%
+\contentsline {chapter}{\numberline {6}File Documentation}{95}{chapter.6}%
+\contentsline {section}{\numberline {6.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/app/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}APP/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu.java File Reference}{95}{section.6.1}%
+\contentsline {section}{\numberline {6.2}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bill\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature.java File Reference}{95}{section.6.2}%
+\contentsline {section}{\numberline {6.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Customer\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature.java File Reference}{95}{section.6.3}%
+\contentsline {section}{\numberline {6.4}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Data\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations.java File Reference}{96}{section.6.4}%
+\contentsline {section}{\numberline {6.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}File\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Operations.java File Reference}{96}{section.6.5}%
+\contentsline {section}{\numberline {6.6}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Functions.java File Reference}{96}{section.6.6}%
+\contentsline {section}{\numberline {6.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature.java File Reference}{96}{section.6.7}%
+\contentsline {section}{\numberline {6.8}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Menu\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Design.java File Reference}{97}{section.6.8}%
+\contentsline {section}{\numberline {6.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sale\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Medicine\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature.java File Reference}{97}{section.6.9}%
+\contentsline {section}{\numberline {6.10}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Supplier\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Feature.java File Reference}{97}{section.6.10}%
+\contentsline {section}{\numberline {6.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CE-\/103-\/2022-\/2023-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}HW4-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Eray-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Burak-\/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}DLL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Unit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.java File Reference}{97}{section.6.11}%
+\contentsline {chapter}{Index}{99}{section*.183}%

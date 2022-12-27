@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['setcabnit_0',['setCabnit',['../d9/da5/a00075.html#a40c105d2b5ba9fa49c9ef6c02c7822b3',1,'DLL::MedicineFeature']]],
+  ['setcityname_1',['setCityName',['../d3/d8b/a00059.html#a6f59ff0df9270a4316a12bbe7a3a076f',1,'DLL.CustomerFeature.setCityName()'],['../d1/d1e/a00087.html#a860775715998ce79b87dd91718ae3435',1,'DLL.SupplierFeature.setCityName()']]],
+  ['setcompanyname_2',['setCompanyName',['../d9/da5/a00075.html#a1a0255b5ab707a55ed0e704ce46c9ab5',1,'DLL::MedicineFeature']]],
+  ['setcontactnum_3',['setContactNum',['../d3/d8b/a00059.html#a30004b078fbb43f113f57e5cf18d03a8',1,'DLL.CustomerFeature.setContactNum()'],['../d1/d1e/a00087.html#a519a6e563f19df39f8e6adae9ffb3a67',1,'DLL.SupplierFeature.setContactNum()']]],
+  ['setcustomerid_4',['setCustomerId',['../d4/d6d/a00055.html#aebf52ee04397533f2ff6b90cbfb93187',1,'DLL.BillFeature.setCustomerId()'],['../d2/d1f/a00083.html#a1661aa3eed98083fae259601f0d3a2bc',1,'DLL.SaleMedicineFeature.setCustomerId()']]],
+  ['setcustomername_5',['setCustomerName',['../d3/d8b/a00059.html#abd5f5cf7f3fbfab029f02b0eea896fa4',1,'DLL::CustomerFeature']]],
+  ['setemail_6',['setEmail',['../d3/d8b/a00059.html#abfa661ee735e9c675cf8ab2a4f883d6d',1,'DLL.CustomerFeature.setEmail()'],['../d1/d1e/a00087.html#aa169787e76f5c91794a9f7434c3ecab7',1,'DLL.SupplierFeature.setEmail()']]],
+  ['setid_7',['setId',['../d4/d6d/a00055.html#a78d9a36ace833cb6f0badabfb63ae108',1,'DLL.BillFeature.setId()'],['../d3/d8b/a00059.html#a87225c936b3bb4361c771f63ea0a54b6',1,'DLL.CustomerFeature.setId()'],['../d1/d1e/a00087.html#ad7f559ca06be3e335aad79d0d638c23c',1,'DLL.SupplierFeature.setId()']]],
+  ['setmedicineid_8',['setMedicineId',['../d4/d6d/a00055.html#a6f7d6da6be3a30cccf1184a7c443b420',1,'DLL.BillFeature.setMedicineId()'],['../d9/da5/a00075.html#a433e127e1a90c362d05d6d64ae89d6cd',1,'DLL.MedicineFeature.setMedicineId()'],['../d2/d1f/a00083.html#ac90310265041a680fbedf84989f2531a',1,'DLL.SaleMedicineFeature.setMedicineId()']]],
+  ['setmedicinename_9',['setMedicineName',['../d9/da5/a00075.html#a89196046777b6ba08f4d73d9ebf6f36e',1,'DLL::MedicineFeature']]],
+  ['setmedicinequantity_10',['setMedicineQuantity',['../d4/d6d/a00055.html#a0b0835477e91ec03a5a3fe69ef35a7c6',1,'DLL.BillFeature.setMedicineQuantity()'],['../d2/d1f/a00083.html#a4fe2eb5a27c78d35af1cab06ff83efa1',1,'DLL.SaleMedicineFeature.setMedicineQuantity()']]],
+  ['setmedicinesupplier_11',['setMedicineSupplier',['../d9/da5/a00075.html#a6c85c99544cd4165ab71764aaf996e15',1,'DLL::MedicineFeature']]],
+  ['setprice_12',['setPrice',['../d9/da5/a00075.html#a2e83c2c9cd58f8edc61a785a46fb20ee',1,'DLL::MedicineFeature']]],
+  ['setquantity_13',['setQuantity',['../d9/da5/a00075.html#ae42bbc28c520b064eeb466542d146f60',1,'DLL::MedicineFeature']]],
+  ['setrack_14',['setRack',['../d9/da5/a00075.html#a11b5ce282d5f289b52dee1bf2152f670',1,'DLL::MedicineFeature']]],
+  ['setsaledate_15',['setSaleDate',['../d2/d1f/a00083.html#a054281d67282aa1991ddfe97eaa80d5d',1,'DLL::SaleMedicineFeature']]],
+  ['setsuppliername_16',['setSupplierName',['../d1/d1e/a00087.html#afa8abe8f7a62e7be1f1c5580fb9d63e7',1,'DLL::SupplierFeature']]],
+  ['stringtobytearray_17',['StringToByteArray',['../d1/d6f/a00063.html#ac5ca1a366782ef99ac92f19e6237caaf',1,'DLL::DataOperations']]]
+];

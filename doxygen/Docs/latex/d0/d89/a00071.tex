@@ -1,0 +1,193 @@
+\hypertarget{a00071}{}\doxysection{DLL.\+Main\+Functions Class Reference}
+\label{a00071}\index{DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static final void \mbox{\hyperlink{a00071_a9f9d09bce637576ee40a96b7255b97e6}{Add\+Supplier}} (int Id, long Contact\+Number, String Supplier\+Name, String City\+Name, String Email)  throws IOException  
+\item 
+static final void \mbox{\hyperlink{a00071_a4bdf3a43c416f7823c6c7e6f38e4552a}{Add\+Customer}} (int Id, long Contact\+Number, String Customer\+Name, String City\+Name, String Email)  throws IOException  
+\item 
+static final void \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{Add\+Medicine}} (int Id, String Medicine\+Name, String Medicine\+Supplier, String Company\+Name, double Price, int Quantity, int Rack, int Cabnit)  throws IOException  
+\item 
+static final void \mbox{\hyperlink{a00071_a559a666ba64720d674936170fec822c7}{Add\+Bill}} (int Bill\+Id, int Customer\+Id, int Medicine\+Id, int Medicine\+Quantity)  throws IOException  
+\item 
+static final void \mbox{\hyperlink{a00071_aa83de5a36707b606a14e745f38445e53}{Add\+Sale\+Medicine}} (int Medicine\+Id, int Customer\+Id, int Medicine\+Quantity, String Sale\+Date)  throws IOException  
+\item 
+static final void \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{Control\+File}} (String File\+Name)  throws IOException   
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{a00071_a559a666ba64720d674936170fec822c7}\label{a00071_a559a666ba64720d674936170fec822c7}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!AddBill@{AddBill}}
+\index{AddBill@{AddBill}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{AddBill()}{AddBill()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Add\+Bill (\begin{DoxyParamCaption}\item[{int}]{Bill\+Id,  }\item[{int}]{Customer\+Id,  }\item[{int}]{Medicine\+Id,  }\item[{int}]{Medicine\+Quantity }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{DLL.\+File\+Operations.\+append\+Block()}}, \mbox{\hyperlink{a00055_af0ed7a5c8571474334812b9c5eb75323}{DLL.\+Bill\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{DLL.\+Main\+Functions.\+Control\+File()}}, \mbox{\hyperlink{a00055_aebf52ee04397533f2ff6b90cbfb93187}{DLL.\+Bill\+Feature.\+set\+Customer\+Id()}}, \mbox{\hyperlink{a00055_a78d9a36ace833cb6f0badabfb63ae108}{DLL.\+Bill\+Feature.\+set\+Id()}}, \mbox{\hyperlink{a00055_a6f7d6da6be3a30cccf1184a7c443b420}{DLL.\+Bill\+Feature.\+set\+Medicine\+Id()}}, and \mbox{\hyperlink{a00055_a0b0835477e91ec03a5a3fe69ef35a7c6}{DLL.\+Bill\+Feature.\+set\+Medicine\+Quantity()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a3da7661ede6ac0495748461a64992913}{APP.\+Main\+Menu.\+option5()}}, and \mbox{\hyperlink{a00091_ae78082e7d8a4ab46eb9137431da8b1b5}{DLL.\+Unit\+Test.\+test\+Add\+Bill()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a559a666ba64720d674936170fec822c7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a559a666ba64720d674936170fec822c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00071_a4bdf3a43c416f7823c6c7e6f38e4552a}\label{a00071_a4bdf3a43c416f7823c6c7e6f38e4552a}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!AddCustomer@{AddCustomer}}
+\index{AddCustomer@{AddCustomer}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{AddCustomer()}{AddCustomer()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Add\+Customer (\begin{DoxyParamCaption}\item[{int}]{Id,  }\item[{long}]{Contact\+Number,  }\item[{String}]{Customer\+Name,  }\item[{String}]{City\+Name,  }\item[{String}]{Email }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{DLL.\+File\+Operations.\+append\+Block()}}, \mbox{\hyperlink{a00059_a503f5ecb8511a5fef9a4728321c7e695}{DLL.\+Customer\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{DLL.\+Main\+Functions.\+Control\+File()}}, \mbox{\hyperlink{a00059_a6f59ff0df9270a4316a12bbe7a3a076f}{DLL.\+Customer\+Feature.\+set\+City\+Name()}}, \mbox{\hyperlink{a00059_a30004b078fbb43f113f57e5cf18d03a8}{DLL.\+Customer\+Feature.\+set\+Contact\+Num()}}, \mbox{\hyperlink{a00059_abd5f5cf7f3fbfab029f02b0eea896fa4}{DLL.\+Customer\+Feature.\+set\+Customer\+Name()}}, \mbox{\hyperlink{a00059_abfa661ee735e9c675cf8ab2a4f883d6d}{DLL.\+Customer\+Feature.\+set\+Email()}}, and \mbox{\hyperlink{a00059_a87225c936b3bb4361c771f63ea0a54b6}{DLL.\+Customer\+Feature.\+set\+Id()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a4f485193b26782868400d1781b13d13b}{APP.\+Main\+Menu.\+option2()}}, and \mbox{\hyperlink{a00091_aeca7cd3f4814e77e9571e1a8223b6a07}{DLL.\+Unit\+Test.\+test\+Add\+Customer()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a4bdf3a43c416f7823c6c7e6f38e4552a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a4bdf3a43c416f7823c6c7e6f38e4552a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00071_a9dd38600dc2a12d558e4bb73a26faff6}\label{a00071_a9dd38600dc2a12d558e4bb73a26faff6}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!AddMedicine@{AddMedicine}}
+\index{AddMedicine@{AddMedicine}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{AddMedicine()}{AddMedicine()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Add\+Medicine (\begin{DoxyParamCaption}\item[{int}]{Id,  }\item[{String}]{Medicine\+Name,  }\item[{String}]{Medicine\+Supplier,  }\item[{String}]{Company\+Name,  }\item[{double}]{Price,  }\item[{int}]{Quantity,  }\item[{int}]{Rack,  }\item[{int}]{Cabnit }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{DLL.\+File\+Operations.\+append\+Block()}}, \mbox{\hyperlink{a00075_a83fd68a7e2c2f12facdf83713dd69469}{DLL.\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{DLL.\+Main\+Functions.\+Control\+File()}}, \mbox{\hyperlink{a00075_a40c105d2b5ba9fa49c9ef6c02c7822b3}{DLL.\+Medicine\+Feature.\+set\+Cabnit()}}, \mbox{\hyperlink{a00075_a1a0255b5ab707a55ed0e704ce46c9ab5}{DLL.\+Medicine\+Feature.\+set\+Company\+Name()}}, \mbox{\hyperlink{a00075_a433e127e1a90c362d05d6d64ae89d6cd}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Id()}}, \mbox{\hyperlink{a00075_a89196046777b6ba08f4d73d9ebf6f36e}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Name()}}, \mbox{\hyperlink{a00075_a6c85c99544cd4165ab71764aaf996e15}{DLL.\+Medicine\+Feature.\+set\+Medicine\+Supplier()}}, \mbox{\hyperlink{a00075_a2e83c2c9cd58f8edc61a785a46fb20ee}{DLL.\+Medicine\+Feature.\+set\+Price()}}, \mbox{\hyperlink{a00075_ae42bbc28c520b064eeb466542d146f60}{DLL.\+Medicine\+Feature.\+set\+Quantity()}}, and \mbox{\hyperlink{a00075_a11b5ce282d5f289b52dee1bf2152f670}{DLL.\+Medicine\+Feature.\+set\+Rack()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}, and \mbox{\hyperlink{a00091_a5927bed825d299e400b52b8b9f945a94}{DLL.\+Unit\+Test.\+test\+Add\+Medicine()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a9dd38600dc2a12d558e4bb73a26faff6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a9dd38600dc2a12d558e4bb73a26faff6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00071_aa83de5a36707b606a14e745f38445e53}\label{a00071_aa83de5a36707b606a14e745f38445e53}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!AddSaleMedicine@{AddSaleMedicine}}
+\index{AddSaleMedicine@{AddSaleMedicine}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{AddSaleMedicine()}{AddSaleMedicine()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Add\+Sale\+Medicine (\begin{DoxyParamCaption}\item[{int}]{Medicine\+Id,  }\item[{int}]{Customer\+Id,  }\item[{int}]{Medicine\+Quantity,  }\item[{String}]{Sale\+Date }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{DLL.\+File\+Operations.\+append\+Block()}}, \mbox{\hyperlink{a00083_a6ebd7938c5848ea6374492e04a90e652}{DLL.\+Sale\+Medicine\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{DLL.\+Main\+Functions.\+Control\+File()}}, \mbox{\hyperlink{a00083_a1661aa3eed98083fae259601f0d3a2bc}{DLL.\+Sale\+Medicine\+Feature.\+set\+Customer\+Id()}}, \mbox{\hyperlink{a00083_ac90310265041a680fbedf84989f2531a}{DLL.\+Sale\+Medicine\+Feature.\+set\+Medicine\+Id()}}, \mbox{\hyperlink{a00083_a4fe2eb5a27c78d35af1cab06ff83efa1}{DLL.\+Sale\+Medicine\+Feature.\+set\+Medicine\+Quantity()}}, and \mbox{\hyperlink{a00083_a054281d67282aa1991ddfe97eaa80d5d}{DLL.\+Sale\+Medicine\+Feature.\+set\+Sale\+Date()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_aa0e06ce03a5bbf53d7cf1e5361ad28f4}{APP.\+Main\+Menu.\+option3()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_aa83de5a36707b606a14e745f38445e53_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_aa83de5a36707b606a14e745f38445e53_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00071_a9f9d09bce637576ee40a96b7255b97e6}\label{a00071_a9f9d09bce637576ee40a96b7255b97e6}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!AddSupplier@{AddSupplier}}
+\index{AddSupplier@{AddSupplier}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{AddSupplier()}{AddSupplier()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Add\+Supplier (\begin{DoxyParamCaption}\item[{int}]{Id,  }\item[{long}]{Contact\+Number,  }\item[{String}]{Supplier\+Name,  }\item[{String}]{City\+Name,  }\item[{String}]{Email }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+References \mbox{\hyperlink{a00067_a521ecf364c3f7b8274d4851216d870d2}{DLL.\+File\+Operations.\+append\+Block()}}, \mbox{\hyperlink{a00087_a0c6fd43e173828cddee7b5f48280dd95}{DLL.\+Supplier\+Feature.\+Book\+To\+Byte\+Array\+Block()}}, \mbox{\hyperlink{a00071_a85ad9de1c20db56ac6ab789ca6971333}{DLL.\+Main\+Functions.\+Control\+File()}}, \mbox{\hyperlink{a00087_a860775715998ce79b87dd91718ae3435}{DLL.\+Supplier\+Feature.\+set\+City\+Name()}}, \mbox{\hyperlink{a00087_a519a6e563f19df39f8e6adae9ffb3a67}{DLL.\+Supplier\+Feature.\+set\+Contact\+Num()}}, \mbox{\hyperlink{a00087_aa169787e76f5c91794a9f7434c3ecab7}{DLL.\+Supplier\+Feature.\+set\+Email()}}, \mbox{\hyperlink{a00087_ad7f559ca06be3e335aad79d0d638c23c}{DLL.\+Supplier\+Feature.\+set\+Id()}}, and \mbox{\hyperlink{a00087_afa8abe8f7a62e7be1f1c5580fb9d63e7}{DLL.\+Supplier\+Feature.\+set\+Supplier\+Name()}}.
+
+
+
+Referenced by \mbox{\hyperlink{a00051_a2607a0daa49c505f8d36b0d25a049230}{APP.\+Main\+Menu.\+option1()}}, and \mbox{\hyperlink{a00091_ade8c73f9f481e013c380e5c4a3ec4903}{DLL.\+Unit\+Test.\+test\+Add\+Supplier()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a9f9d09bce637576ee40a96b7255b97e6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a9f9d09bce637576ee40a96b7255b97e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{a00071_a85ad9de1c20db56ac6ab789ca6971333}\label{a00071_a85ad9de1c20db56ac6ab789ca6971333}} 
+\index{DLL.MainFunctions@{DLL.MainFunctions}!ControlFile@{ControlFile}}
+\index{ControlFile@{ControlFile}!DLL.MainFunctions@{DLL.MainFunctions}}
+\doxysubsubsection{\texorpdfstring{ControlFile()}{ControlFile()}}
+{\footnotesize\ttfamily static final void DLL.\+Main\+Functions.\+Control\+File (\begin{DoxyParamCaption}\item[{String}]{File\+Name }\end{DoxyParamCaption}) throws IOException\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Referenced by \mbox{\hyperlink{a00071_a559a666ba64720d674936170fec822c7}{DLL.\+Main\+Functions.\+Add\+Bill()}}, \mbox{\hyperlink{a00071_a4bdf3a43c416f7823c6c7e6f38e4552a}{DLL.\+Main\+Functions.\+Add\+Customer()}}, \mbox{\hyperlink{a00071_a9dd38600dc2a12d558e4bb73a26faff6}{DLL.\+Main\+Functions.\+Add\+Medicine()}}, \mbox{\hyperlink{a00071_aa83de5a36707b606a14e745f38445e53}{DLL.\+Main\+Functions.\+Add\+Sale\+Medicine()}}, and \mbox{\hyperlink{a00071_a9f9d09bce637576ee40a96b7255b97e6}{DLL.\+Main\+Functions.\+Add\+Supplier()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d89/a00071_a85ad9de1c20db56ac6ab789ca6971333_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+HW/\+CE-\/103-\/2022-\/2023-\/\+HW4-\/\+Eray-\/\+Burak-\/\+Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/\+DLL/\mbox{\hyperlink{a00026}{Main\+Functions.\+java}}\end{DoxyCompactItemize}

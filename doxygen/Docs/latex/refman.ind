@@ -1,0 +1,568 @@
+\begin{theindex}
+
+  \item {\_billId}
+    \subitem {DLL.BillFeature}, \hyperpage{14}
+  \item {\_cabnit}
+    \subitem {DLL.MedicineFeature}, \hyperpage{62}
+  \item {\_cityName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{24}
+    \subitem {DLL.SupplierFeature}, \hyperpage{81}
+  \item {\_companyName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{62}
+  \item {\_contactNum}
+    \subitem {DLL.CustomerFeature}, \hyperpage{24}
+    \subitem {DLL.SupplierFeature}, \hyperpage{81}
+  \item {\_customerId}
+    \subitem {DLL.BillFeature}, \hyperpage{14}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {\_customerName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{24}
+  \item {\_email}
+    \subitem {DLL.CustomerFeature}, \hyperpage{24}
+    \subitem {DLL.SupplierFeature}, \hyperpage{81}
+  \item {\_id}
+    \subitem {DLL.CustomerFeature}, \hyperpage{24}
+    \subitem {DLL.SupplierFeature}, \hyperpage{81}
+  \item {\_medicineId}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {\_medicineName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+  \item {\_medicineQuantity}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {\_medicineSupplier}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+  \item {\_price}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+  \item {\_quantity}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+  \item {\_rack}
+    \subitem {DLL.MedicineFeature}, \hyperpage{63}
+  \item {\_saleDate}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {\_supplierName}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+
+  \indexspace
+
+  \item {AddBill}
+    \subitem {DLL.MainFunctions}, \hyperpage{36}
+  \item {AddCustomer}
+    \subitem {DLL.MainFunctions}, \hyperpage{37}
+  \item {AddMedicine}
+    \subitem {DLL.MainFunctions}, \hyperpage{38}
+  \item {AddSaleMedicine}
+    \subitem {DLL.MainFunctions}, \hyperpage{39}
+  \item {AddSupplier}
+    \subitem {DLL.MainFunctions}, \hyperpage{40}
+  \item {APP}, \hyperpage{7}
+  \item {APP.MainMenu}, \hyperpage{42}
+    \subitem {main}, \hyperpage{42}
+    \subitem {option1}, \hyperpage{43}
+    \subitem {option2}, \hyperpage{45}
+    \subitem {option3}, \hyperpage{46}
+    \subitem {option4}, \hyperpage{48}
+    \subitem {option5}, \hyperpage{49}
+    \subitem {option6}, \hyperpage{51}
+  \item {appendBlock}
+    \subitem {DLL.FileOperations}, \hyperpage{33}
+
+  \indexspace
+
+  \item {BILL\_DATA\_BLOCK\_SIZE}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+  \item {BILL\_ID\_LENGTH}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+  \item {BookToByteArrayBlock}
+    \subitem {DLL.BillFeature}, \hyperpage{10}
+    \subitem {DLL.CustomerFeature}, \hyperpage{17}
+    \subitem {DLL.MedicineFeature}, \hyperpage{52}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{67}
+    \subitem {DLL.SupplierFeature}, \hyperpage{74}
+  \item {ByteArrayBlockToBook}
+    \subitem {DLL.BillFeature}, \hyperpage{10}
+    \subitem {DLL.CustomerFeature}, \hyperpage{18}
+    \subitem {DLL.MedicineFeature}, \hyperpage{53}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{68}
+    \subitem {DLL.SupplierFeature}, \hyperpage{75}
+  \item {byteArrayToDouble}
+    \subitem {DLL.DataOperations}, \hyperpage{26}
+  \item {byteArrayToFloat}
+    \subitem {DLL.DataOperations}, \hyperpage{26}
+  \item {byteArrayToInteger}
+    \subitem {DLL.DataOperations}, \hyperpage{27}
+  \item {byteArrayToLong}
+    \subitem {DLL.DataOperations}, \hyperpage{27}
+  \item {byteArrayToString}
+    \subitem {DLL.DataOperations}, \hyperpage{28}
+
+  \indexspace
+
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/app/src/APP/MainMenu.java}, 
+		\hyperpage{95}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/BillFeature.java}, 
+		\hyperpage{95}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/CustomerFeature.java}, 
+		\hyperpage{95}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/DataOperations.java}, 
+		\hyperpage{96}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/FileOperations.java}, 
+		\hyperpage{96}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/MainFunctions.java}, 
+		\hyperpage{96}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/MedicineFeature.java}, 
+		\hyperpage{96}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/MenuDesign.java}, 
+		\hyperpage{97}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/SaleMedicineFeature.java}, 
+		\hyperpage{97}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/SupplierFeature.java}, 
+		\hyperpage{97}
+  \item {C:/HW/CE-\/103-\/2022-\/2023-\/HW4-\/Eray-\/Burak-\/Cakir/ce103-\/hw4-\/medicalstore-\/lib/src/DLL/UnitTest.java}, 
+		\hyperpage{97}
+  \item {CABNIT\_NUMBER\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+  \item {CITY\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+  \item {COMPANY\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+  \item {CONTACT\_NUMBER\_MAX\_LENGTH}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+  \item {ControlFile}
+    \subitem {DLL.MainFunctions}, \hyperpage{41}
+  \item {convertLongToByteArray}
+    \subitem {DLL.DataOperations}, \hyperpage{28}
+  \item {CUSTOMER\_DATA\_BLOCK\_SIZE}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+  \item {CUSTOMER\_ID\_MAX\_LENGTH}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {CUSTOMER\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+
+  \indexspace
+
+  \item {deleteBlock}
+    \subitem {DLL.FileOperations}, \hyperpage{33}
+  \item {deleteBlock2}
+    \subitem {DLL.FileOperations}, \hyperpage{33}
+  \item {DLL}, \hyperpage{7}
+  \item {DLL.BillFeature}, \hyperpage{9}
+    \subitem {\_billId}, \hyperpage{14}
+    \subitem {\_customerId}, \hyperpage{14}
+    \subitem {\_medicineId}, \hyperpage{15}
+    \subitem {\_medicineQuantity}, \hyperpage{15}
+    \subitem {BILL\_DATA\_BLOCK\_SIZE}, \hyperpage{15}
+    \subitem {BILL\_ID\_LENGTH}, \hyperpage{15}
+    \subitem {BookToByteArrayBlock}, \hyperpage{10}
+    \subitem {ByteArrayBlockToBook}, \hyperpage{10}
+    \subitem {CUSTOMER\_ID\_MAX\_LENGTH}, \hyperpage{15}
+    \subitem {getBillId}, \hyperpage{11}
+    \subitem {getCustomerId}, \hyperpage{11}
+    \subitem {getMedicineId}, \hyperpage{12}
+    \subitem {getMedicineQuantity}, \hyperpage{12}
+    \subitem {MEDICINE\_ID\_LENGTH}, \hyperpage{15}
+    \subitem {MEDICINE\_QUANTITY\_LENGTH}, \hyperpage{16}
+    \subitem {setCustomerId}, \hyperpage{12}
+    \subitem {setId}, \hyperpage{13}
+    \subitem {setMedicineId}, \hyperpage{13}
+    \subitem {setMedicineQuantity}, \hyperpage{14}
+  \item {DLL.CustomerFeature}, \hyperpage{16}
+    \subitem {\_cityName}, \hyperpage{24}
+    \subitem {\_contactNum}, \hyperpage{24}
+    \subitem {\_customerName}, \hyperpage{24}
+    \subitem {\_email}, \hyperpage{24}
+    \subitem {\_id}, \hyperpage{24}
+    \subitem {BookToByteArrayBlock}, \hyperpage{17}
+    \subitem {ByteArrayBlockToBook}, \hyperpage{18}
+    \subitem {CITY\_NAME\_MAX\_LENGTH}, \hyperpage{25}
+    \subitem {CONTACT\_NUMBER\_MAX\_LENGTH}, \hyperpage{25}
+    \subitem {CUSTOMER\_DATA\_BLOCK\_SIZE}, \hyperpage{25}
+    \subitem {CUSTOMER\_NAME\_MAX\_LENGTH}, \hyperpage{25}
+    \subitem {EMAİL\_MAX\_LENGTH}, \hyperpage{25}
+    \subitem {getCityName}, \hyperpage{19}
+    \subitem {getContactNum}, \hyperpage{19}
+    \subitem {getCustomerName}, \hyperpage{20}
+    \subitem {getEmail}, \hyperpage{20}
+    \subitem {getId}, \hyperpage{21}
+    \subitem {ID\_LENGTH}, \hyperpage{25}
+    \subitem {setCityName}, \hyperpage{21}
+    \subitem {setContactNum}, \hyperpage{22}
+    \subitem {setCustomerName}, \hyperpage{22}
+    \subitem {setEmail}, \hyperpage{23}
+    \subitem {setId}, \hyperpage{23}
+  \item {DLL.DataOperations}, \hyperpage{26}
+    \subitem {byteArrayToDouble}, \hyperpage{26}
+    \subitem {byteArrayToFloat}, \hyperpage{26}
+    \subitem {byteArrayToInteger}, \hyperpage{27}
+    \subitem {byteArrayToLong}, \hyperpage{27}
+    \subitem {byteArrayToString}, \hyperpage{28}
+    \subitem {convertLongToByteArray}, \hyperpage{28}
+    \subitem {doubleToByteArray}, \hyperpage{29}
+    \subitem {floatToByteArray}, \hyperpage{29}
+    \subitem {GetInt}, \hyperpage{29}
+    \subitem {integerToByteArray}, \hyperpage{30}
+    \subitem {IsHex}, \hyperpage{30}
+    \subitem {StringToByteArray}, \hyperpage{31}
+    \subitem {ToAscii}, \hyperpage{31}
+    \subitem {ToByte}, \hyperpage{32}
+    \subitem {ToHex}, \hyperpage{32}
+  \item {DLL.FileOperations}, \hyperpage{32}
+    \subitem {appendBlock}, \hyperpage{33}
+    \subitem {deleteBlock}, \hyperpage{33}
+    \subitem {deleteBlock2}, \hyperpage{33}
+    \subitem {readBlock}, \hyperpage{34}
+    \subitem {updateBlock}, \hyperpage{35}
+    \subitem {writeLine}, \hyperpage{35}
+  \item {DLL.MainFunctions}, \hyperpage{36}
+    \subitem {AddBill}, \hyperpage{36}
+    \subitem {AddCustomer}, \hyperpage{37}
+    \subitem {AddMedicine}, \hyperpage{38}
+    \subitem {AddSaleMedicine}, \hyperpage{39}
+    \subitem {AddSupplier}, \hyperpage{40}
+    \subitem {ControlFile}, \hyperpage{41}
+  \item {DLL.MedicineFeature}, \hyperpage{51}
+    \subitem {\_cabnit}, \hyperpage{62}
+    \subitem {\_companyName}, \hyperpage{62}
+    \subitem {\_medicineId}, \hyperpage{63}
+    \subitem {\_medicineName}, \hyperpage{63}
+    \subitem {\_medicineSupplier}, \hyperpage{63}
+    \subitem {\_price}, \hyperpage{63}
+    \subitem {\_quantity}, \hyperpage{63}
+    \subitem {\_rack}, \hyperpage{63}
+    \subitem {BookToByteArrayBlock}, \hyperpage{52}
+    \subitem {ByteArrayBlockToBook}, \hyperpage{53}
+    \subitem {CABNIT\_NUMBER\_MAX\_LENGTH}, \hyperpage{64}
+    \subitem {COMPANY\_NAME\_MAX\_LENGTH}, \hyperpage{64}
+    \subitem {getCabnit}, \hyperpage{55}
+    \subitem {getCompanyName}, \hyperpage{55}
+    \subitem {getMedicineId}, \hyperpage{55}
+    \subitem {getMedicineName}, \hyperpage{56}
+    \subitem {getMedicineSupplier}, \hyperpage{56}
+    \subitem {getPrice}, \hyperpage{57}
+    \subitem {getQuantity}, \hyperpage{57}
+    \subitem {getRack}, \hyperpage{58}
+    \subitem {MEDICINE\_DATA\_BLOCK\_SIZE}, \hyperpage{64}
+    \subitem {MEDICINE\_ID\_LENGTH}, \hyperpage{64}
+    \subitem {MEDICINE\_NAME\_MAX\_LENGTH}, \hyperpage{64}
+    \subitem {MEDICINE\_PRICE\_LENGTH}, \hyperpage{64}
+    \subitem {MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}, \hyperpage{65}
+    \subitem {QUANTITY\_MAX\_LENGTH}, \hyperpage{65}
+    \subitem {RACK\_NUMBER\_MAX\_LENGTH}, \hyperpage{65}
+    \subitem {setCabnit}, \hyperpage{58}
+    \subitem {setCompanyName}, \hyperpage{59}
+    \subitem {setMedicineId}, \hyperpage{59}
+    \subitem {setMedicineName}, \hyperpage{60}
+    \subitem {setMedicineSupplier}, \hyperpage{60}
+    \subitem {setPrice}, \hyperpage{61}
+    \subitem {setQuantity}, \hyperpage{61}
+    \subitem {setRack}, \hyperpage{62}
+  \item {DLL.MenuDesign}, \hyperpage{65}
+    \subitem {printMenu}, \hyperpage{65}
+  \item {DLL.SaleMedicineFeature}, \hyperpage{66}
+    \subitem {\_customerId}, \hyperpage{72}
+    \subitem {\_medicineId}, \hyperpage{72}
+    \subitem {\_medicineQuantity}, \hyperpage{72}
+    \subitem {\_saleDate}, \hyperpage{72}
+    \subitem {BookToByteArrayBlock}, \hyperpage{67}
+    \subitem {ByteArrayBlockToBook}, \hyperpage{68}
+    \subitem {CUSTOMER\_ID\_MAX\_LENGTH}, \hyperpage{72}
+    \subitem {getCustomerId}, \hyperpage{69}
+    \subitem {getMedicineId}, \hyperpage{69}
+    \subitem {getMedicineQuantity}, \hyperpage{69}
+    \subitem {getSaleDate}, \hyperpage{70}
+    \subitem {MEDICINE\_ID\_LENGTH}, \hyperpage{72}
+    \subitem {MEDICINE\_QUANTITY\_LENGTH}, \hyperpage{73}
+    \subitem {SALE\_DATA\_BLOCK\_SIZE}, \hyperpage{73}
+    \subitem {SALE\_DATE}, \hyperpage{73}
+    \subitem {setCustomerId}, \hyperpage{70}
+    \subitem {setMedicineId}, \hyperpage{70}
+    \subitem {setMedicineQuantity}, \hyperpage{71}
+    \subitem {setSaleDate}, \hyperpage{71}
+  \item {DLL.SupplierFeature}, \hyperpage{73}
+    \subitem {\_cityName}, \hyperpage{81}
+    \subitem {\_contactNum}, \hyperpage{81}
+    \subitem {\_email}, \hyperpage{81}
+    \subitem {\_id}, \hyperpage{81}
+    \subitem {\_supplierName}, \hyperpage{82}
+    \subitem {BookToByteArrayBlock}, \hyperpage{74}
+    \subitem {ByteArrayBlockToBook}, \hyperpage{75}
+    \subitem {CITY\_NAME\_MAX\_LENGTH}, \hyperpage{82}
+    \subitem {CONTACT\_NUMBER\_MAX\_LENGTH}, \hyperpage{82}
+    \subitem {EMAİL\_MAX\_LENGTH}, \hyperpage{82}
+    \subitem {getCityName}, \hyperpage{76}
+    \subitem {getContactNum}, \hyperpage{77}
+    \subitem {getEmail}, \hyperpage{77}
+    \subitem {getId}, \hyperpage{77}
+    \subitem {getSupplierName}, \hyperpage{78}
+    \subitem {ID\_LENGTH}, \hyperpage{82}
+    \subitem {setCityName}, \hyperpage{78}
+    \subitem {setContactNum}, \hyperpage{79}
+    \subitem {setEmail}, \hyperpage{79}
+    \subitem {setId}, \hyperpage{80}
+    \subitem {setSupplierName}, \hyperpage{80}
+    \subitem {SUPPLIER\_DATA\_BLOCK\_SIZE}, \hyperpage{82}
+    \subitem {SUPPLIER\_NAME\_MAX\_LENGTH}, \hyperpage{83}
+  \item {DLL.UnitTest}, \hyperpage{83}
+    \subitem {testAddBill}, \hyperpage{83}
+    \subitem {testAddCustomer}, \hyperpage{84}
+    \subitem {testAddMedicine}, \hyperpage{84}
+    \subitem {testAddSaleMedicine}, \hyperpage{85}
+    \subitem {testAddSupplier}, \hyperpage{85}
+    \subitem {testByteArrayBlockToBook}, \hyperpage{86}
+    \subitem {testByteArrayToFloat}, \hyperpage{87}
+    \subitem {testByteArrayToHexString}, \hyperpage{87}
+    \subitem {testByteArrayToInteger}, \hyperpage{88}
+    \subitem {testByteArrayToLong}, \hyperpage{88}
+    \subitem {testByteArrayToString}, \hyperpage{88}
+    \subitem {testGetInt}, \hyperpage{89}
+    \subitem {testHexStringToByteArray}, \hyperpage{89}
+    \subitem {testIsHex}, \hyperpage{89}
+    \subitem {testReadBlock}, \hyperpage{90}
+    \subitem {testSupplierCreation}, \hyperpage{90}
+    \subitem {testSupplierCreationAndFileWriting}, \hyperpage{91}
+    \subitem {testUpdateBlock}, \hyperpage{92}
+    \subitem {testWriteLine}, \hyperpage{92}
+  \item {doubleToByteArray}
+    \subitem {DLL.DataOperations}, \hyperpage{29}
+
+  \indexspace
+
+  \item {EMAİL\_MAX\_LENGTH}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+
+  \indexspace
+
+  \item {floatToByteArray}
+    \subitem {DLL.DataOperations}, \hyperpage{29}
+
+  \indexspace
+
+  \item {getBillId}
+    \subitem {DLL.BillFeature}, \hyperpage{11}
+  \item {getCabnit}
+    \subitem {DLL.MedicineFeature}, \hyperpage{55}
+  \item {getCityName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{19}
+    \subitem {DLL.SupplierFeature}, \hyperpage{76}
+  \item {getCompanyName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{55}
+  \item {getContactNum}
+    \subitem {DLL.CustomerFeature}, \hyperpage{19}
+    \subitem {DLL.SupplierFeature}, \hyperpage{77}
+  \item {getCustomerId}
+    \subitem {DLL.BillFeature}, \hyperpage{11}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{69}
+  \item {getCustomerName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{20}
+  \item {getEmail}
+    \subitem {DLL.CustomerFeature}, \hyperpage{20}
+    \subitem {DLL.SupplierFeature}, \hyperpage{77}
+  \item {getId}
+    \subitem {DLL.CustomerFeature}, \hyperpage{21}
+    \subitem {DLL.SupplierFeature}, \hyperpage{77}
+  \item {GetInt}
+    \subitem {DLL.DataOperations}, \hyperpage{29}
+  \item {getMedicineId}
+    \subitem {DLL.BillFeature}, \hyperpage{12}
+    \subitem {DLL.MedicineFeature}, \hyperpage{55}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{69}
+  \item {getMedicineName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{56}
+  \item {getMedicineQuantity}
+    \subitem {DLL.BillFeature}, \hyperpage{12}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{69}
+  \item {getMedicineSupplier}
+    \subitem {DLL.MedicineFeature}, \hyperpage{56}
+  \item {getPrice}
+    \subitem {DLL.MedicineFeature}, \hyperpage{57}
+  \item {getQuantity}
+    \subitem {DLL.MedicineFeature}, \hyperpage{57}
+  \item {getRack}
+    \subitem {DLL.MedicineFeature}, \hyperpage{58}
+  \item {getSaleDate}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{70}
+  \item {getSupplierName}
+    \subitem {DLL.SupplierFeature}, \hyperpage{78}
+
+  \indexspace
+
+  \item {ID\_LENGTH}
+    \subitem {DLL.CustomerFeature}, \hyperpage{25}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+  \item {integerToByteArray}
+    \subitem {DLL.DataOperations}, \hyperpage{30}
+  \item {IsHex}
+    \subitem {DLL.DataOperations}, \hyperpage{30}
+
+  \indexspace
+
+  \item {main}
+    \subitem {APP.MainMenu}, \hyperpage{42}
+  \item {MEDICINE\_DATA\_BLOCK\_SIZE}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+  \item {MEDICINE\_ID\_LENGTH}
+    \subitem {DLL.BillFeature}, \hyperpage{15}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{72}
+  \item {MEDICINE\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+  \item {MEDICINE\_PRICE\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{64}
+  \item {MEDICINE\_QUANTITY\_LENGTH}
+    \subitem {DLL.BillFeature}, \hyperpage{16}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{73}
+  \item {MEDICINE\_SUPPLIER\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{65}
+
+  \indexspace
+
+  \item {option1}
+    \subitem {APP.MainMenu}, \hyperpage{43}
+  \item {option2}
+    \subitem {APP.MainMenu}, \hyperpage{45}
+  \item {option3}
+    \subitem {APP.MainMenu}, \hyperpage{46}
+  \item {option4}
+    \subitem {APP.MainMenu}, \hyperpage{48}
+  \item {option5}
+    \subitem {APP.MainMenu}, \hyperpage{49}
+  \item {option6}
+    \subitem {APP.MainMenu}, \hyperpage{51}
+
+  \indexspace
+
+  \item {printMenu}
+    \subitem {DLL.MenuDesign}, \hyperpage{65}
+
+  \indexspace
+
+  \item {QUANTITY\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{65}
+
+  \indexspace
+
+  \item {RACK\_NUMBER\_MAX\_LENGTH}
+    \subitem {DLL.MedicineFeature}, \hyperpage{65}
+  \item {readBlock}
+    \subitem {DLL.FileOperations}, \hyperpage{34}
+
+  \indexspace
+
+  \item {SALE\_DATA\_BLOCK\_SIZE}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{73}
+  \item {SALE\_DATE}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{73}
+  \item {setCabnit}
+    \subitem {DLL.MedicineFeature}, \hyperpage{58}
+  \item {setCityName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{21}
+    \subitem {DLL.SupplierFeature}, \hyperpage{78}
+  \item {setCompanyName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{59}
+  \item {setContactNum}
+    \subitem {DLL.CustomerFeature}, \hyperpage{22}
+    \subitem {DLL.SupplierFeature}, \hyperpage{79}
+  \item {setCustomerId}
+    \subitem {DLL.BillFeature}, \hyperpage{12}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{70}
+  \item {setCustomerName}
+    \subitem {DLL.CustomerFeature}, \hyperpage{22}
+  \item {setEmail}
+    \subitem {DLL.CustomerFeature}, \hyperpage{23}
+    \subitem {DLL.SupplierFeature}, \hyperpage{79}
+  \item {setId}
+    \subitem {DLL.BillFeature}, \hyperpage{13}
+    \subitem {DLL.CustomerFeature}, \hyperpage{23}
+    \subitem {DLL.SupplierFeature}, \hyperpage{80}
+  \item {setMedicineId}
+    \subitem {DLL.BillFeature}, \hyperpage{13}
+    \subitem {DLL.MedicineFeature}, \hyperpage{59}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{70}
+  \item {setMedicineName}
+    \subitem {DLL.MedicineFeature}, \hyperpage{60}
+  \item {setMedicineQuantity}
+    \subitem {DLL.BillFeature}, \hyperpage{14}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{71}
+  \item {setMedicineSupplier}
+    \subitem {DLL.MedicineFeature}, \hyperpage{60}
+  \item {setPrice}
+    \subitem {DLL.MedicineFeature}, \hyperpage{61}
+  \item {setQuantity}
+    \subitem {DLL.MedicineFeature}, \hyperpage{61}
+  \item {setRack}
+    \subitem {DLL.MedicineFeature}, \hyperpage{62}
+  \item {setSaleDate}
+    \subitem {DLL.SaleMedicineFeature}, \hyperpage{71}
+  \item {setSupplierName}
+    \subitem {DLL.SupplierFeature}, \hyperpage{80}
+  \item {StringToByteArray}
+    \subitem {DLL.DataOperations}, \hyperpage{31}
+  \item {SUPPLIER\_DATA\_BLOCK\_SIZE}
+    \subitem {DLL.SupplierFeature}, \hyperpage{82}
+  \item {SUPPLIER\_NAME\_MAX\_LENGTH}
+    \subitem {DLL.SupplierFeature}, \hyperpage{83}
+
+  \indexspace
+
+  \item {testAddBill}
+    \subitem {DLL.UnitTest}, \hyperpage{83}
+  \item {testAddCustomer}
+    \subitem {DLL.UnitTest}, \hyperpage{84}
+  \item {testAddMedicine}
+    \subitem {DLL.UnitTest}, \hyperpage{84}
+  \item {testAddSaleMedicine}
+    \subitem {DLL.UnitTest}, \hyperpage{85}
+  \item {testAddSupplier}
+    \subitem {DLL.UnitTest}, \hyperpage{85}
+  \item {testByteArrayBlockToBook}
+    \subitem {DLL.UnitTest}, \hyperpage{86}
+  \item {testByteArrayToFloat}
+    \subitem {DLL.UnitTest}, \hyperpage{87}
+  \item {testByteArrayToHexString}
+    \subitem {DLL.UnitTest}, \hyperpage{87}
+  \item {testByteArrayToInteger}
+    \subitem {DLL.UnitTest}, \hyperpage{88}
+  \item {testByteArrayToLong}
+    \subitem {DLL.UnitTest}, \hyperpage{88}
+  \item {testByteArrayToString}
+    \subitem {DLL.UnitTest}, \hyperpage{88}
+  \item {testGetInt}
+    \subitem {DLL.UnitTest}, \hyperpage{89}
+  \item {testHexStringToByteArray}
+    \subitem {DLL.UnitTest}, \hyperpage{89}
+  \item {testIsHex}
+    \subitem {DLL.UnitTest}, \hyperpage{89}
+  \item {testReadBlock}
+    \subitem {DLL.UnitTest}, \hyperpage{90}
+  \item {testSupplierCreation}
+    \subitem {DLL.UnitTest}, \hyperpage{90}
+  \item {testSupplierCreationAndFileWriting}
+    \subitem {DLL.UnitTest}, \hyperpage{91}
+  \item {testUpdateBlock}
+    \subitem {DLL.UnitTest}, \hyperpage{92}
+  \item {testWriteLine}
+    \subitem {DLL.UnitTest}, \hyperpage{92}
+  \item {ToAscii}
+    \subitem {DLL.DataOperations}, \hyperpage{31}
+  \item {ToByte}
+    \subitem {DLL.DataOperations}, \hyperpage{32}
+  \item {ToHex}
+    \subitem {DLL.DataOperations}, \hyperpage{32}
+
+  \indexspace
+
+  \item {updateBlock}
+    \subitem {DLL.FileOperations}, \hyperpage{35}
+
+  \indexspace
+
+  \item {writeLine}
+    \subitem {DLL.FileOperations}, \hyperpage{35}
+
+\end{theindex}
