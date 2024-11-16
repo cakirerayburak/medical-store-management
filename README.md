@@ -1,4 +1,4 @@
-# ce103-hw4-2022-2023-eray-burak-cakir
+# Medical Store Management
 
 * Eray Burak Çakır / Süleyman Mert Almalı
 
